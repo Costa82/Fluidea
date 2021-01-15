@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteRule ^([a-z_]+)$ index.php?action=$1 [L]
+RewriteRule ^([a-z_]+)/pag:([0-9]+)$ index.php?action=$1&opcion=$2 [L]
+RewriteRule ^([a-z_]+)/([0-9]+)$ index.php?action=$1&opcion=$2 [L]
+
+#Error
+RewriteEngine On
+ErrorDocument 404 /page404.php
+
+# DESCOMENTAR ESTA LÍNEA AL SUBIR A PRODUCCIÓN
+# REDIRECCIÓN A HTTPS
+#RewriteCond %{HTTP_HOST} ^nombre_pagina.es [NC]
+#RewriteRule ^(.*)$ https://www.nombre_pagina.es/$1 [L,R=301]
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://www.nombre_pagina.es/$1 [R,L]
