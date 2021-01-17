@@ -1,17 +1,16 @@
 <?php
-require_once './config/Validaciones.php';
+require_once './config/Validations.php';
 
 /**
  * Controlador de gestión de usuarios
  */
-class ControladorUsuarios
-{
+class ControladorUsuarios {
 
 	/**
 	 * Método que lleva a la página del administrador
 	 */
-	public function pagina_usuario()
-	{
+	public function pagina_usuario() {
+		
 		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
 			$params['error'] = $_SESSION['error'];
 			$_SESSION['error'] = 0;
@@ -24,8 +23,8 @@ class ControladorUsuarios
 	/**
 	 * Método que comprueba si está registrado el usuario y si lo está muestra el error
 	 */
-	public function logueo()
-	{
+	public function logueo() {
+		
 		if (isset($_REQUEST['loguear'])) {
 
 			if (!empty($_REQUEST['nick']) and !empty($_REQUEST['contrasena'])) {

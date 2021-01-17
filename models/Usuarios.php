@@ -5,24 +5,26 @@ require_once './config/Utils.php';
 class Usuarios extends AbstractBBDD {
 
 	// Propiedades de la tabla de la BBDD
+	public $id_usuario;
 	public $nombre;
 	public $apellidos;
-	public $telefono;
+	public $nombre_empresa;
+	public $password;
 	public $email;
+	public $telefono;
 	public $cif_nif;
 	public $direccion;
 	public $codigo_postal;
 	public $newsletter;
-	public $password;
-	public $fecha_alta;
 	public $tipo_usuario;
 	public $estado;
+	public $fecha_alta;
+	public $fecha_ult_modificacion;
 
 	protected $c;
 	protected $tabla;
 
-	public function __construct()
-	{
+	public function __construct() {
 		$bd = Connection::dameInstancia();
 		$this->c = $bd->dameConexion();
 		$this->tabla = "usuarios";
@@ -141,8 +143,7 @@ class Usuarios extends AbstractBBDD {
 	/**
 	 * Recupera todos los usuarios de la tabla por nombre
 	 */
-	public function mostrarUsuariosPorNombreEnTabla()
-	{
+	public function mostrarUsuariosPorNombreEnTabla() {
 		$consulta = "SELECT * FROM " . $this->tabla . " WHERE estado = 'ACTV' AND tipo_usuario = 'USU' ORDER BY nombre ASC";
 		$resultados = Usuarios::ejecutarQuery($consulta);
 		
@@ -153,8 +154,7 @@ class Usuarios extends AbstractBBDD {
 	/**
 	 * Recupera todos los usuarios de la tabla por fecha actualización
 	 */
-	public function mostrarUsuariosPorFechaEnTabla()
-	{
+	public function mostrarUsuariosPorFechaEnTabla() {
 		$consulta = "SELECT * FROM " . $this->tabla . " WHERE estado = 'ACTV' AND tipo_usuario = 'USU' ORDER BY fecha_alta DESC";
 		$resultados = Usuarios::ejecutarQuery($consulta);
 
@@ -196,8 +196,7 @@ class Usuarios extends AbstractBBDD {
 	 * @param String $pass
 	 * @return boolean
 	 */
-	public function esRegistrado($email, $password, $tipo_usuario)
-	{
+	public function esRegistrado($email, $password, $tipo_usuario) {
 		$resultado = false;
 
 		$passMD5 = md5($password);
@@ -220,8 +219,7 @@ class Usuarios extends AbstractBBDD {
 	 * @param String $email
 	 * @return boolean
 	 */
-	public function esRegistradoMail($email)
-	{
+	public function esRegistradoMail($email) {
 		$resultado = false;
 
 		$consulta = "SELECT * FROM " . $this->tabla . " WHERE email = '" . $mail . "' AND estado = 'ACTV'";

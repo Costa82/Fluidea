@@ -1,5 +1,5 @@
 <!--
-- Pagina inicio Merendalia.
+- Pagina inicio Fluidea.
 - @author Miguel Costa.
 -->
 
@@ -13,7 +13,16 @@
 <meta name="description"
 	content="" />
 <meta name="robots" content="NOODP">
-<title>Página de Bea</title>
+<title>
+
+<?php 
+if (isset($_SESSION['nombre_pagina']))
+	echo $_SESSION['nombre_pagina'];
+else
+	echo 'Fluidea';
+?>
+
+</title>
 <link type="text/css" rel="stylesheet" href="./views/default/css/font-awesome.css" />
 
 <link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One'
@@ -47,21 +56,33 @@
 
 </head>
 <body>
-
-	<!-- <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js"
-	data-cbid="02242fa2-d798-4493-bc01-ef4d666afa09"
-	data-blockingmode="auto" type="text/javascript"></script> -->
+	
+	<!-- Cookiebot -->
+	<?php 
+	if (isset($_SESSION['nombre_pagina']) && $_SESSION['nombre_pagina'] == 'Fluidea') {
+		echo "<!-- <script id='Cookiebot' src='https://consent.cookiebot.com/uc.js'
+			data-cbid='02242fa2-d798-4493-bc01-ef4d666afa09'
+			data-blockingmode='auto' type='text/javascript'></script> -->";
+	}
+	?>
 	
 	<header>
 
-		<nav>
-		<?php include_once("template_menuNavIndex.php");?>
-		</nav>
+		<!-- Menú navegación -->
+		<?php 
+		if (isset($_SESSION['nombre_pagina']) && $_SESSION['nombre_pagina'] == 'Fluidea')
+			echo "<nav class='menuNavIndex'>";
+		else
+			echo "<nav class='menuNav'>";
+
+		include_once("template_menuNav.php");
+		echo "</nav>";
+		?>
 
 	</header>
 
 	<!-- Contenido -->
-	<?php echo $contenido; ?>
+	<?php echo $contenido;?>
 
 	<footer>
 	<?php include_once("template_footer.php");?>

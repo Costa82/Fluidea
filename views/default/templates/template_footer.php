@@ -3,7 +3,7 @@
 	<div class="logo_footer">
 		<ul>
 		<?php
-		echo '<li><img class="logo_hamburguesa" src="./views/default/img/sandwich con bolas blancas.png" alt="Merendalia"/></li>';
+		echo '<li><img class="logo" src="" title="Fluidea" alt="Fluidea"/></li>';
 		?>
 			<li class="espacio oculto_movil_footer">Texto para el footer descriptivo</li>
 		</ul>
@@ -11,19 +11,21 @@
 
 	<div class="informacion">
 
-		<h3>Información</h3>
+		<h3>INFORMACIÓN</h3>
 
 		<ul>
 
 		<?php
-	    echo '<li class="elementos_menu"><a href="inicio" title="Inicio">Inicio</a></li>
-	          <li class="elementos_menu"><a href="quien-soy" title="Quien soy">Quien soy</a></li>
-	          <li class="elementos_menu"><a href="servicios" title="Servicios">Servicios</a></li>
-	          <li class="elementos_menu"><a href="blog" title="Blog">Blog</a></li>
-	          <li class="elementos_menu"><a href="contacto" title="Contacto">Contacto</a></li>
-              <li class="elementos_menu"><a href="declaracion-cookies" title="Declaración de Cookies">Declaración de Cookies</a></li>
-              <li class="elementos_menu"><a href="aviso-legal" title="Aviso Legal">Aviso Legal</a></li>
-              <li class="elementos_menu"><a href="politica-privacidad-y-proteccion-datos" title="Política de privacidad y Protección de datos">Política de privacidad y Protección de datos</a></li>';
+	    echo '<li class="elementos_menu_footer"><a href="inicio" title="INICIO">INICIO</a></li>
+	          <li class="elementos_menu_footer"><a href="detrás_de_fluidea" title="SOBRE MÍ">SOBRE MÍ</a></li>
+	          <li class="elementos_menu_footer"><a href="metodo_pop_up_flow" title="POP UP FLOW">POP UP FLOW</a></li>
+	          <li class="elementos_menu_footer"><a href="servicios" title="SERVICIOS">SERVICIOS</a></li>
+	          <li class="elementos_menu_footer"><a href="blog" title="BLOG">BLOG</a></li>
+	          <li class="elementos_menu_footer"><a href="contacto" title="CONTACTO">CONTACTO</a></li>
+	          <li class="elementos_menu_footer"><a href="login" title="LOGIN">LOGIN</a></li>
+              <li class="elementos_menu_footer"><a href="declaracion-cookies" title="Declaración de Cookies">Declaración de Cookies</a></li>
+              <li class="elementos_menu_footer"><a href="aviso-legal" title="Aviso Legal">Aviso Legal</a></li>
+              <li class="elementos_menu_footer"><a href="politica-privacidad-y-proteccion-datos" title="Política de privacidad y Protección de datos">Política de privacidad y Protección de datos</a></li>';
 		?>
 
 		</ul>
@@ -31,15 +33,15 @@
 	</div>
 
 	<div class="redes">
-		<h3>Síguenos</h3>
-		<a href="https://m.facebook.com/merendalia" title="Facebook"
+		<h3>SÍGUENOS</h3>
+		<a href="" title="Facebook"
 			target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i>
 		</a> 
-		<a href="https://www.twitter.com/merendalia?lang=es"
+		<a href=""
 			title="Twitter" target="_blank" rel="noopener"><i class="fa fa-twitter"
 			aria-hidden="true"></i> 
 		</a> 
-		<a href="https://www.instagram.com/merendalia/" title="Instagram"
+		<a href="" title="Instagram"
 			target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i>
 		</a>
 	</div>

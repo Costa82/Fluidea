@@ -4,7 +4,7 @@ class Connection {
 	private $host = "localhost";
 	private $username = "root";
 	private $password = "";
-	private $base="bd_proyectobea";
+	private $base="bd_fluidea";
 
 	private $conex;
 	private static $instancia;

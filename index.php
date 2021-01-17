@@ -14,6 +14,30 @@ $map = array(
         'controller' => 'ControladorPaginas',
         'action' => 'inicio',
         'privada' => false
+    ), 'detras_de_fluidea' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'detras_de_fluidea',
+        'privada' => false
+    ), 'metodo_pop_up_flow' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'metodo_pop_up_flow',
+        'privada' => false
+    ), 'servicios' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'servicios',
+        'privada' => false
+    ), 'blog' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'blog',
+        'privada' => false
+    ), 'contacto' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'contacto',
+        'privada' => false
+    ), 'login' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'login',
+        'privada' => false
     ),
     
     // Páginas de error

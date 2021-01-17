@@ -5,17 +5,18 @@ require_once './config/Utils.php';
 class Pedidos extends AbstractBBDD {
 
 	// Propiedades de la tabla de la BBDD
+	public $id_pedido;
 	public $id_usuario;
 	public $tipo;
 	public $descripcion;
-	public $fecha;
+	public $fecha_alta;
+	public $fecha_ult_modificacion;
 	public $estado;
 
 	protected $c;
 	protected $tabla;
 
-	public function __construct()
-	{
+	public function __construct() {
 		$bd = Connection::dameInstancia();
 		$this->c = $bd->dameConexion();
 		$this->tabla = "pedidos";

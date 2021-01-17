@@ -37,10 +37,6 @@ html {
 	font-family: Montserrat-UltraLight;
 }
 
-body {
-	margin-top: 20px;
-}
-
 h1 {
 	text-align: center;
 	font-size: 25px;
@@ -52,7 +48,18 @@ h4 {
 }
 
 p,span {
-	font-size: 15px;
+	font-size: 10px;
+}
+
+.fa {
+	color: black;
+	font-size: 1.8rem;
+	cursor: pointer;
+}
+
+/* Quitamos el borde azul al hacer select en los enlaces */
+a:-webkit-any-link:focus {
+	outline-offset: 0px;
 }
 
 /* HEADER
@@ -63,8 +70,17 @@ header {
 	display: block;
 }
 
-nav {
-	margin-top: 10px;
+nav.menuNavIndex {
+	background-image: url("../img/foto_ejemplo1.jpg");
+	height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	/* Resize the background image to cover the entire container */
+}
+
+nav .fa {
+	padding-right: 25px;
 }
 
 /* Hacemos flexible la lista del nav. */
@@ -72,10 +88,7 @@ nav>ul {
 	display: flex;
 	justify-content: space-around;
 	font-family: Montserrat-Bold;
-	position: fixed;
-	background-color: white;
-	margin-top: -20px;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 nav>#lista_principal_index {
@@ -90,8 +103,8 @@ nav>#lista_principal_index {
 	display: none;
 }
 
-.elementos_menu_moviles a:hover	{
-	color: #9bd155;
+.elementos_menu_moviles a:hover {
+	color: grey;
 }
 
 nav>ul>li {
@@ -104,7 +117,7 @@ nav>ul>li>a {
 }
 
 nav>ul>li>a:hover,nav>ul>li>a:hover>.fa {
-	color: #9bd155;
+	color: grey;
 }
 
 /* Inicio ocupara todo el espacio sobrante */
@@ -115,20 +128,13 @@ nav>ul>li>a:hover,nav>ul>li>a:hover>.fa {
 
 .inicio_logo img {
 	height: 40px;
-	padding: 25px;
+	padding: 10px 25px;
 }
 
 .inicio_logo img:hover {
 	height: 75px;
 	transition: height 0.5s;
 	opacity: 2;
-}
-
-.fa {
-	color: black;
-	padding-right: 8px;
-	font-size: 1.8rem;
-	cursor: pointer;
 }
 
 /* Mostramos el menu para dispositivos moviles*/
@@ -166,8 +172,9 @@ nav>ul>li>ul#lista_movil {
 	background: linear-gradient(to up, rgba(226, 226, 226, 1) 0%,
 		rgba(209, 209, 209, 1) 0%, rgba(219, 219, 219, 1) 14%,
 		rgba(244, 244, 244, 1) 58%, rgba(254, 254, 254, 1) 76% );
-	filter: progid : DXImageTransform.Microsoft.gradient (
-		startColorstr = '#e2e2e2', endColorstr = '#fefefe', GradientType = 1 );
+	filter: progid :           DXImageTransform.Microsoft.gradient (     
+		     startColorstr =           '#e2e2e2', endColorstr =          
+		'#fefefe', GradientType =           1 );
 }
 
 nav>ul>li>ul#lista_movil a {
@@ -179,11 +186,44 @@ nav>ul>li>ul#lista_movil li {
 	padding: 5px;
 }
 
+/* CONTENEDOR TEXTO
+========================================================================= */
+.contenedor_texto {
+	width: 100%;
+	padding-top: 70px;
+}
+
+.contenedor_texto .texto {
+	width: 90%;
+	margin: 10px auto;
+	text-align: justify;
+}
+
+.contenedor_texto .texto p {
+	padding-bottom: 25px;
+}
+
+.superior {
+	width: 60%;
+	background-color: #ED6174;
+	color: white;
+	opacity: 0.9;
+	padding: 30px;
+	position: absolute;
+	top: 350px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.secundario {
+	margin-top: 350px;
+}
+
 /* FOOTER
 ========================================================================= */
-
 footer {
-	background-color: #ff3123;
+	background-color: #ED6174;
 	font-size: 15px;
 	padding-top: 15px;
 	color: white;
@@ -227,10 +267,11 @@ footer a {
 footer .fa {
 	font-size: 25px;
 	color: white;
+	padding: 0 0 0 9px;
 }
 
 footer .fa:hover,a:hover {
-	color: #d8c12d;
+	color: black;
 }
 
 .espacio {
@@ -253,48 +294,57 @@ footer h3 {
 	margin-bottom: 10px;
 }
 
+.avisoLegal_movil {
+	text-align: center;
+	padding: 10px;
+}
+
 /*RESPONSIVE
 ========================================================================= */
 
 /* Para resoluciones a partir de 500px */
 @media only screen and (min-width: 500px) {
-
 }
 
 /* Para resoluciones a partir de 600px */
 @media only screen and (min-width: 600px) {
-		
-	nav>ul>li#menu_moviles {
-		display: none;
-	}
-	
-	.elementos_menu {
-		display: block;
-	}
-	
+}
+
+/* Para resoluciones a partir de 700px */
+@media only screen and (min-width: 500px) {
 }
 
 /* Para resoluciones a partir de 800px */
 @media only screen and (min-width: 800px) {
-
+	p, span {
+		font-size: 15px;
+	}
 }
 
 /* Para resoluciones a partir de 1000px */
 @media only screen and (min-width: 1000px) {
-	
 }
 
 /* Para resoluciones a partir de 1250px */
 @media only screen and (min-width: 1250px) {
-	
+	nav>ul>li#menu_moviles {
+		display: none;
+	}
+	.elementos_menu {
+		display: block;
+	}
+	.informacion ul,.informacion h3 {
+		display: block;
+	}
+	.avisoLegal_movil {
+		display: none;
+	}
 }
 
 /* Para resoluciones a partir de 1400px */
 @media only screen and (min-width: 1400px) {
-	
 }
 
 /* Para resoluciones a partir de 1600px */
 @media only screen and (min-width: 1600px) {
-	
 }
