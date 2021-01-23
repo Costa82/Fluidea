@@ -3,7 +3,7 @@
 	<div class="logo_footer">
 		<ul>
 		<?php
-		echo '<li><img class="logo" src="" title="Fluidea" alt="Fluidea"/></li>';
+		echo '<li><img class="logo" src="./views/default/img/logo/png/logos versiones_Mesa de trabajo 1 copia.png" title="Fluidea" alt="Fluidea"/></li>';
 		?>
 			<li class="espacio oculto_movil_footer">Texto para el footer descriptivo</li>
 		</ul>

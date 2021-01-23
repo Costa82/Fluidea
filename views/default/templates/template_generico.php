@@ -71,7 +71,7 @@ else
 		<!-- Menú navegación -->
 		<?php 
 		if (isset($_SESSION['nombre_pagina']) && $_SESSION['nombre_pagina'] == 'Fluidea')
-			echo "<nav class='menuNavIndex'>";
+			echo "<nav class='menuNav'>";
 		else
 			echo "<nav class='menuNav'>";
 
