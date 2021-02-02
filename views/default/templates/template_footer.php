@@ -34,16 +34,17 @@
 
 	<div class="redes">
 		<h3>SÍGUENOS</h3>
-		<a href="" title="Facebook"
-			target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i>
-		</a> 
-		<a href=""
-			title="Twitter" target="_blank" rel="noopener"><i class="fa fa-twitter"
-			aria-hidden="true"></i> 
-		</a> 
-		<a href="" title="Instagram"
+		<a href="https://www.instagram.com/fluidea.es/" title="Instagram"
 			target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i>
 		</a>
+		<a href="https://www.facebook.com/beafluidea/" title="Facebook"
+			target="_blank" rel="noopener"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+		</a> 
+		<a href="https://www.youtube.com/channel/UC4rovheir1iZMK_EBcSh6Jg/featured"
+			title="Youtube" target="_blank" rel="noopener"><i class="fa fa-youtube"
+			aria-hidden="true"></i> 
+		</a> 
+		
 	</div>
 
 </div>

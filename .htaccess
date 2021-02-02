@@ -9,9 +9,9 @@ ErrorDocument 404 /page404.php
 
 # DESCOMENTAR ESTA LÍNEA AL SUBIR A PRODUCCIÓN
 # REDIRECCIÓN A HTTPS
-#RewriteCond %{HTTP_HOST} ^nombre_pagina.es [NC]
-#RewriteRule ^(.*)$ https://www.nombre_pagina.es/$1 [L,R=301]
+#RewriteCond %{HTTP_HOST} ^fluidea.es [NC]
+#RewriteRule ^(.*)$ https://www.fluidea.es/$1 [L,R=301]
 #RewriteEngine On
 #RewriteBase /
 #RewriteCond %{SERVER_PORT} 80
-#RewriteRule ^(.*)$ https://www.nombre_pagina.es/$1 [R,L]
+#RewriteRule ^(.*)$ https://www.fluidea.es/$1 [R,L]

@@ -28,12 +28,12 @@ p {
 	font-family: Quicksand;
 }
 
-ul {
-	list-style: none;
-}
-
 a, a:hover, a:focus {
 	text-decoration: none;
+}
+
+ul {
+	list-style: none;
 }
 
 /* BASE
@@ -230,6 +230,15 @@ nav>ul>li>ul#lista_movil li {
 	width: 80%;
 	margin: 30px auto 0;
 	text-align: justify;
+}
+
+ul.lista_texto {
+	list-style: circle;
+	padding-left: 25px;
+}
+
+.contenedor_texto img {
+	width: 100%;
 }
 
 .contenedor_texto .texto p {

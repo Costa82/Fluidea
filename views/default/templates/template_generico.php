@@ -29,15 +29,15 @@ else
 	rel='stylesheet' type='text/css' />
 <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah"
 	rel="stylesheet">
-<!--  <link href="apple-touch-icon.png" rel="apple-touch-icon" /> -->
-<!--  <link href="apple-touch-icon-152x152.png" rel="apple-touch-icon"
-	sizes="152x152" /> -->
-<!--  <link href="apple-touch-icon-167x167.png" rel="apple-touch-icon"
-	sizes="167x167" /> -->
-<!--  <link href="apple-touch-icon-180x180.png" rel="apple-touch-icon"
-	sizes="180x180" /> -->
-<!--  <link href="icon-hires.png" rel="icon" sizes="192x192" /> -->
-<!--  <link href="icon-normal.png" rel="icon" sizes="128x128" /> -->
+<link href="apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="apple-touch-icon-152x152.png" rel="apple-touch-icon"
+	sizes="152x152" />
+<link href="apple-touch-icon-167x167.png" rel="apple-touch-icon"
+	sizes="167x167" />
+<link href="apple-touch-icon-180x180.png" rel="apple-touch-icon"
+	sizes="180x180" />
+<link href="icon-hires.png" rel="icon" sizes="192x192" />
+<link href="icon-normal.png" rel="icon" sizes="128x128" />
 <script src="./views/default/jquery/jquery-3.1.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-latest.min.js"
 	type="text/javascript"></script>

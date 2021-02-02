@@ -8,7 +8,6 @@ echo "<ul id='lista_principal_index'>
         <li class='elementos_menu'><a href='servicios' title='SERVICIOS'>SERVICIOS</a></li>
         <li class='elementos_menu'><a href='blog' title='BLOG'>BLOG</a></li>
         <li class='elementos_menu'><a href='contacto' title='CONTACTO'>CONTACTO</a></li>
-        <!-- <li class='elementos_menu'><a href='login' title='LOGIN'>LOGIN</a></li> -->
     
         <li id='menu_moviles'><i class='fa fa-bars' aria-hidden='true'></i></a>
             <ul id='lista_movil'>
@@ -18,7 +17,6 @@ echo "<ul id='lista_principal_index'>
 		        <li class='elementos_menu_moviles'><a href='servicios' title='SERVICIOS'>SERVICIOS</a></li>
 		        <li class='elementos_menu_moviles'><a href='blog' title='BLOG'>BLOG</a></li>
 		        <li class='elementos_menu_moviles'><a href='contacto' title='CONTACTO'>CONTACTO</a></li>
-		        <!-- <li class='elementos_menu_moviles'><a href='login' title='LOGIN'>LOGIN</a></li> -->
             </ul>
         </li>
       </ul>";

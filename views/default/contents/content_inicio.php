@@ -1,5 +1,12 @@
 <!-- Contenido de la pagina de Inicio -->
 
+<!-- div class="contenedor_texto">
+
+	<img src="./views/default/img/pantalla_estamos_construyendo_web.png">
+
+</div -->
+
+
 <div class="contenedor_texto enmarcado">
 
 	<div class="texto">
@@ -49,7 +56,7 @@
 
 		<div class="texto_centrado">
 
-			<!-- Principio del widget de enlace de Calendly -->
+			<!-- Inicio Calendly -->
 			<link href="https://assets.calendly.com/assets/external/widget.css"
 				rel="stylesheet">
 			<script src="https://assets.calendly.com/assets/external/widget.js"
@@ -57,7 +64,8 @@
 			<a class="boton"
 				onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">Quiero
 				mi cita gratuita con Bea</a>
-			<!-- Final del widget de enlace de Calendly -->
+			<!-- Fin Calendly -->
+			
 
 		</div>
 
