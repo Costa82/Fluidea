@@ -1,7 +1,4 @@
-<!--
-- Pagina inicio Fluidea.
-- @author Miguel Costa.
--->
+<!-- Plantilla genérica -->
 
 <!DOCTYPE html>
 <html lang="es" prefix="og: http://ogp.me/ns#">
@@ -38,9 +35,48 @@ else
 	sizes="180x180" />
 <link href="icon-hires.png" rel="icon" sizes="192x192" />
 <link href="icon-normal.png" rel="icon" sizes="128x128" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 <script src="./views/default/jquery/jquery-3.1.1.min.js"></script>
 <script src="https://code.jquery.com/jquery-latest.min.js"
 	type="text/javascript"></script>
+	
+<!-- Inicio Calendly -->
+<link href="https://assets.calendly.com/assets/external/widget.css"
+	rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js"
+	type="text/javascript"></script>
+<!-- Fin Calendly -->
+
+<!-- Inicio Recaptcha -->
+<script
+	src='https://www.google.com/recaptcha/api.js?render=6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3'> 
+	//6LdPFd4ZAAAAAF2swsyoEk36ow12TcHZ6q6e7FeL local
+	//6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3 producción
+</script>
+
+<script>
+	grecaptcha.ready(function() {
+	grecaptcha.execute('6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3', {action: 'newsletter'})
+	.then(function(token) {
+	var recaptchaResponse = document.getElementById('recaptchaResponse');
+	recaptchaResponse.value = token;
+	});});
+</script>
+<!-- Fin Recaptcha -->
+
+<!-- Inicio Validación formulario -->
+<script>
+     function validar(){
+     	if (document.getElementById('condiciones').checked){
+        	return true;
+        } else {
+            alert("El formulario no puede ser enviado si no acepta el Aviso Legal y la Política de Privacidad");
+            return false;
+        }
+      }
+</script>
+<!-- Fin Validación formulario -->
 
 <!-- Metemos un aleatorio para la recarga automAtica del css y el js -->
 <script>
@@ -70,23 +106,58 @@ else
 
 		<!-- Menú navegación -->
 		<?php 
-		if (isset($_SESSION['nombre_pagina']) && $_SESSION['nombre_pagina'] == 'Fluidea')
+		if (isset($_SESSION['nombre_pagina'])) {
+			$nombre_pagina = $_SESSION['nombre_pagina'];
+			
+			switch ($nombre_pagina) {
+		    case 'Fluidea':
+		        echo "<nav class='menuNavGrande fluidea'>";
+		        break;
+		    case 'Detrás de Fluidea':
+		        echo "<nav class='menuNavGrande detras'>";
+		        break;
+		    case 'Servicios':
+		        echo "<nav class='menuNavGrande servicios'>";
+		        break;
+		    case 'Contacto':
+		        echo "<nav class='menuNavGrande contacto'>";
+		        break;
+		    default:
+		        echo "<nav class='menuNav'>";
+		        break;
+			}
+			
+		} else
 			echo "<nav class='menuNav'>";
-		else
-			echo "<nav class='menuNav'>";
-
-		include_once("template_menuNav.php");
-		echo "</nav>";
+			
+		include_once("template_menuNav.php"); 
+		echo "</nav>"
 		?>
 
 	</header>
 
 	<!-- Contenido -->
 	<?php echo $contenido;?>
+	
+	<!-- Formulario contacto -->
+	<?php 
+		if (isset($_SESSION['nombre_pagina']) && $_SESSION['nombre_pagina'] == 'Contacto' || 
+			$_SESSION['nombre_pagina'] == 'Servicios' || $_SESSION['nombre_pagina'] == 'Servicios Brújula' ||
+			$_SESSION['nombre_pagina'] == 'Servicios Descongestión' || $_SESSION['nombre_pagina'] == 'Servicios Digitalización')
+			include_once("template_formulario_contacto.php");
+	?>
 
-	<footer>
-	<?php include_once("template_footer.php");?>
-	</footer>
+	<!-- Footer -->
+	<?php 
+		if (isset($_SESSION['nombre_pagina']) && ($_SESSION['nombre_pagina'] == 'Envio' ||
+		$_SESSION['nombre_pagina'] == 'Página de Error 404'))
+			echo "<footer class='fixed'>";
+		else
+			echo "<footer>";
+				
+		include_once("template_footer.php");
+		echo "</footer>";
+	?>
 
 </body>
 </html>

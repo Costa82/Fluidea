@@ -10,6 +10,8 @@ function __autoload($class)
 
 // Enrutamiento. Selecciona el controlador y la accion a ejecutar
 $map = array(
+
+	// Páginas
 	'inicio' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'inicio',
@@ -37,6 +39,30 @@ $map = array(
     ), 'login' => array(
         'controller' => 'ControladorPaginas',
         'action' => 'login',
+        'privada' => false
+    ), 'servicios_paquetes_brujula' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'servicios_paquetes_brujula',
+        'privada' => false
+    ), 'servicios_paquetes_descongestion' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'servicios_paquetes_descongestion',
+        'privada' => false
+    ), 'servicios_paquetes_digitalizacion' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'servicios_paquetes_digitalizacion',
+        'privada' => false
+    ),
+    
+    // Formularios
+    'formulario' => array(
+        'controller' => 'ControladorFormularios',
+        'action' => 'formulario',
+        'privada' => false
+    ),
+    'respuesta_envio' => array(
+        'controller' => 'ControladorFormularios',
+        'action' => 'respuesta_envio',
         'privada' => false
     ),
     
@@ -73,10 +99,10 @@ $clase_controlador = $controlador['controller'];
 $metodo = $controlador['action'];
 
 // Si la pagina es privada comprobamos si el usuario es administrador, sino redirigimos a inicio
-if ($controlador['privada'] && (!isset($_SESSION['administrador']) || !$_SESSION['administrador'])) {
-    header('location:./inicio'); 
-    die();
-}
+//if ($controlador['privada'] && (!isset($_SESSION['administrador']) || !$_SESSION['administrador'])) {
+//    header('location:./inicio'); 
+//    die();
+//}
 
 // Creamos un objeto de la clase controladora y ejecutamos el metodo indicado en el action
 require_once "controller/$clase_controlador.php";

@@ -1,6 +1,6 @@
 <!-- Contenido de la pagina de Detrás de Fluidea -->
 
-<div class="contenedor_texto enmarcado">
+<div class="contenedor_texto contenedor_superior rosa">
 
 	<h1>DETRÁS DE FLUIDEA</h1>
 
@@ -87,7 +87,7 @@
 			creatividad, y tienes que focalizar muy bien en qué tareas lo
 			utilizas.</p>
 
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_indie">
 			<strong>FOCALIZA TU ESFUERZO</strong>
 		</p>
 
@@ -108,9 +108,9 @@
 		<p>Por eso, déjame que te ayude a portear todas esas piedras, hasta tu
 			meta más inmediata y a la vez definitiva: echar a rodar tu negocio.</p>
 
-		<div class="texto_centrado">
+		<div class="contenedor_boton texto_centrado">
 			<p>
-				<a class="boton" href="servicios">Quiero que me ayudes, Bea</a>
+				<a class="boton letra_indie" href="servicios">Quiero que me ayudes, Bea</a>
 			</p>
 		</div>
 
@@ -148,17 +148,12 @@
 
 		<div class="contenedor_bloques contenedor_flex">
 
-			<!-- Inicio Calendly -->
-			<link href="https://assets.calendly.com/assets/external/widget.css"
-				rel="stylesheet">
-			<script src="https://assets.calendly.com/assets/external/widget.js"
-				type="text/javascript"></script>
 			<a
 				onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
-				<div class="bloque flex">
+				<div class="bloque rosa flex">
 					<h3>¡RESÉRVALA AHORA!</h3>
 					<p>Y da el primer paso seguro hacia el lanzamiento de tu proyecto</p>
-					<h3>¡CON FLOW!</h3>
+					<h3 class="letra_indie">¡CON FLOW!</h3>
 				</div> </a>
 
 		</div>

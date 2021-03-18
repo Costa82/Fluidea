@@ -1,8 +1,7 @@
 <?php
 include ("phpmailer.php");
 
-class Correo
-{
+class Correo {
 
     private $contrasena;
 
@@ -10,28 +9,24 @@ class Correo
 
     private $correoBea;
 
-    public function __construct()
-    {
-        $this->contrasena = "Merendalia19";
-        $this->correoAdministrador = "info@merendalia.es";
-        $this->correoBea = "blozares@gmail.com";
+    public function __construct() {
+        $this->contrasena = "735jbZ13";
+        $this->correoAdministrador = "hola@fluidea.es";
     }
 
     /**
-     * enviarMailsReserva
-     * Envía el mail de reserva
-     *
+     * enviarMailsConsulta
+     * Envía el mail de contacto
+     * 
      * @param  $mail
      * @param  $nombre
-     * @param  $dia
-     * @param  $hora_entrada
-     * @param  $hora_salida
      * @param  $telefono
-     * @param  $comentario
+     * @param  $consulta
+     * @return string
      */
-    public function enviarMailsReserva($mail, $nombre, $dia, $hora_entrada, $hora_salida, $telefono, $comentario, $whatsapp)
+    public function enviarMailsConsulta($mail, $nombre, $consulta)
     {
-        $imagen = 'https://preview.ibb.co/bMeFeK/merendalia_logotipo_RGB_01.png';
+        $imagen = 'https://i.ibb.co/7zpwCdR/logos-versiones-Mesa-de-trabajo-1-copia-4.png';
         
         $smtp = new PHPMailer();
         
@@ -50,35 +45,41 @@ class Correo
         $smtp->Port = 465;
         
         // datos de quien realiza el envio
-        $smtp->From = "info@merendalia.es"; // from mail
-        $smtp->FromName = "Administrador de Merendalia"; // from mail name
-                                                         
+        $smtp->From = "hola@fluidea.es"; // from mail
+        $smtp->FromName = "Fluidea"; // from mail name
+        
         // Indicamos las direcciones donde enviar el mensaje con el formato
-                                                         // "correo"=>"nombre usuario"
-                                                         // Se pueden poner tantos correos como se deseen
+        // "correo"=>"nombre usuario"
+        // Se pueden poner tantos correos como se deseen
         $mailTo = array(
             $mail => $nombre
         );
         
         // establecemos un limite de caracteres de anchura
         $smtp->WordWrap = 50; // set word wrap
-                              
+        
         // NOTA: Los correos es conveniente enviarlos en formato HTML y Texto para que
-                              // cualquier programa de correo pueda leerlo.
-                              
+        // cualquier programa de correo pueda leerlo.
+        
         // Definimos el contenido HTML del correo
         $contenidoHTML = "<head>";
         $contenidoHTML .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">";
         $contenidoHTML .= "</head><body>";
-        $contenidoHTML .= "<h1 style='color: #d8c12d'>¡Hola " . $nombre . "!</h1>";
-        $contenidoHTML .= "<p>En merendalia hemos recibido tu solicitud, vamos a revisar lo que nos pides, ver si es posible, y nos pondremos en contacto contigo a la mayor brevedad posible.
-											</br>Un saludo y ¡¡gracias por contactar con nosotros!!</p>
-                                                                                        </br><strong>Teléfono de contacto:</strong> 983 85 73 69
-											</br>
-											</br><a href='https://www.merendalia.es'><img src='" . $imagen . "' height='50'/></a>
+        $contenidoHTML .= "<h2 style='color: #f7c300'>¡Hola " . $nombre . "!</h2>";
+        $contenidoHTML .= "<p>Muchas gracias por contactar con nosotros, en breve nos pondremos en contacto contigo.
+        				   </br></br>Un saludo!!</p>
+                           </br><strong>Teléfono:</strong> 623 11 62 40
+                           </br><strong>Correo:</strong> hola@fluidea.es
+                           </br><strong>Web:</strong> https://www.fluidea.es
+						   </br>
+											</br><a href='https://www.fluidea.es'><img src='" . $imagen . "' height='130'/></a>
 											</br><p style='font-size: 10px;'><strong>AVISO SEGURIDAD</strong>
-											</br><strong>MERENDALIA C.B</strong> le informa que su dirección de correo electrónico, así como el resto de los datos de carácter personal de su tarjeta de visita que nos facilite, serán objeto de tratamiento automatizado en nuestros ficheros, con la finalidad de gestionar la agenda de contactos de nuestra empresa, para el envío de comunicaciones profesionales y/o personales por vía electrónica. Vd. podrá en cualquier momento ejercer el derecho de acceso, rectificación, cancelación y oposición en los términos establecidos en la Ley Orgánica 15/1999. El responsable del tratamiento es  <strong>MERENDALIA C.B</strong> con domicilio en CALLE PARAÍSO 2, BAJO, 47003, VALLADOLID.
-											</br>El contenido de esta comunicación, así como el de toda la documentación anexa, es confidencial y va dirigido únicamente al destinatario del mismo. En el supuesto de que usted no fuera el destinatario, le solicitamos que nos lo indique y no comunique su contenido a terceros, procediendo a su destrucción. Gracias.</p>";
+											</br><strong>FLUIDEA</strong> le informa que su dirección de correo electrónico, así como el resto de los datos de carácter personal de su tarjeta de visita 
+											que nos facilite, serán objeto de tratamiento automatizado en nuestros ficheros, con la finalidad de gestionar la agenda de contactos de nuestra empresa, para el 
+											envío de comunicaciones profesionales y/o personales por vía electrónica. Vd. podrá en cualquier momento ejercer el derecho de acceso, rectificación, cancelación y 
+											oposición en los términos establecidos en la Ley Orgánica 15/1999. El responsable del tratamiento es <strong>FLUIDEA</strong>.
+											</br>El contenido de esta comunicación, así como el de toda la documentación anexa, es confidencial y va dirigido únicamente al destinatario del mismo. En el supuesto 
+											de que usted no fuera el destinatario, le solicitamos que nos lo indique y no comunique su contenido a terceros, procediendo a su destrucción. Gracias.</p>";
         $contenidoHTML .= "</body>\n";
         
         // Definimos el contenido en formato Texto del correo
@@ -86,7 +87,7 @@ class Correo
         // $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
         
         // Definimos el subject
-        $smtp->Subject = "Merendalia";
+        $smtp->Subject = "FLUIDEA";
         
         // Adjuntamos el archivo "leameLWP.txt" al correo.
         // Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -106,7 +107,7 @@ class Correo
             
             // Envía el correo.
             if ($smtp->Send()) {
-                $this->enviarCorreoInformativoReserva($mail, $nombre, $dia, $hora_entrada, $hora_salida, $telefono, $comentario, $whatsapp);
+                $this->enviarCorreoInformativoConsulta($mail, $nombre, $consulta);
                 $envio = "OK";
             } else {
                 $envio = "KO";
@@ -115,22 +116,19 @@ class Correo
         
         return $envio;
     }
-
+    
     /**
-     * enviarCorreoInformativoReserva
-     * Envía el correo informando al administrador de la reserva
-     *
+     * enviarCorreoInformativoContacto
+     * Envía el correo informando al administrador de la consulta
+     * 
      * @param  $mail
      * @param  $nombre
-     * @param  $dia
-     * @param  $hora_entrada
-     * @param  $hora_salida
      * @param  $telefono
-     * @param  $comentario
+     * @param  $consulta
      */
-    public function enviarCorreoInformativoReserva($mail, $nombre, $dia, $hora_entrada, $hora_salida, $telefono, $comentario, $whatsapp)
+    public function enviarCorreoInformativoConsulta($mail, $nombre, $consulta)
     {
-        $imagen = 'https://preview.ibb.co/bMeFeK/merendalia_logotipo_RGB_01.png';
+        $imagen = 'https://i.ibb.co/7zpwCdR/logos-versiones-Mesa-de-trabajo-1-copia-4.png';
         
         $smtp = new PHPMailer();
         
@@ -149,48 +147,37 @@ class Correo
         $smtp->Port = 465;
         
         // datos de quien realiza el envio
-        $smtp->From = "info@merendalia.es"; // from mail
-        $smtp->FromName = "Administrador de Merendalia"; // from mail name
-                                                         
+        $smtp->From = "hola@fluidea.es"; // from mail
+        $smtp->FromName = "Fluidea"; // from mail name
+        
         // Indicamos las direcciones donde enviar el mensaje con el formato
-                                                         // "correo"=>"nombre usuario"
-                                                         // Se pueden poner tantos correos como se deseen
+        // "correo"=>"nombre usuario"
+        // Se pueden poner tantos correos como se deseen
         $mailTo = array(
-            $this->correoAdministrador => "Administrador",
-            $this->correoBea => "Beatriz"
+            $this->correoAdministrador => "Administrador"
         );
         
         // establecemos un limite de caracteres de anchura
         $smtp->WordWrap = 50; // set word wrap
-                              
+        
         // NOTA: Los correos es conveniente enviarlos en formato HTML y Texto para que
-                              // cualquier programa de correo pueda leerlo.
-                              
+        // cualquier programa de correo pueda leerlo.
+        
         // Definimos el contenido HTML del correo
         $contenidoHTML = "<head>";
         $contenidoHTML .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">";
         $contenidoHTML .= "</head><body>";
-        $contenidoHTML .= "<h1 style='color: #d8c12d'>¡Hola Administrador!</h1>";
-        $contenidoHTML .= "<p>" . $nombre . " ha realizado una reserva.</p>
-                                            </br><p><strong>Dia: </strong>" . $dia . ".</p>
-                                            </br><p><strong>Hora entrada: </strong>" . $hora_entrada . ".</p>
-                                            </br><p><strong>Hora salida: </strong>" . $hora_salida . ".</p>";
+        $contenidoHTML .= "<h2 style='color: #f7c300'>¡Hola Administrador!</h2>";
+        $contenidoHTML .= "<p>" . $nombre . " ha realizado una consulta.</p>";
         
-        if ($comentario != null) {
-            $contenidoHTML .= "</br><p><strong>Comentario: </strong>" . $comentario . ".</p>";
-        }
-        $contenidoHTML .= "</br><p>Comprueba que esté todo correcto y confirma su asistencia.</p>
-											</br><p><strong>Mail: </strong>" . $mail . ".</p>";
-        if ($telefono != null) {
-            $contenidoHTML .= "</br><p><strong>Teléfono: </strong>" . $telefono . ".</p>";
+        if ($consulta != null) {
+            $contenidoHTML .= "</br><p><strong>Consulta: </strong>" . $consulta . ".</p>";
         }
         
-        if ($whatsapp == "OK") {
-            $contenidoHTML .= "</br><p>" . $nombre . " acepta ser añadido a la <i>Lista de difusión por whatsapp.</i></p>";
-        }
+        $contenidoHTML .= "</br><p><strong>Mail: </strong>" . $mail . ".</p>";
         
         $contenidoHTML .= "</br>
-						  </br><p><a href='https://www.merendalia.es'><img src='" . $imagen . "' height='50'/></a></p>";
+						  </br><p><a href='https://www.fluidea.es'><img src='" . $imagen . "' height='130'/></a></p>";
         
         $contenidoHTML .= "</body>\n";
         
@@ -199,7 +186,7 @@ class Correo
         // $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
         
         // Definimos el subject
-        $smtp->Subject = "Merendalia";
+        $smtp->Subject = "FLUIDEA";
         
         // Adjuntamos el archivo "leameLWP.txt" al correo.
         // Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -220,20 +207,18 @@ class Correo
             $smtp->Send(); // Envía el correo.
         }
     }
-
+    
     /**
-     * enviarMailsConsulta
-     * Envía el mail de contacto
+     * enviarMailsNewsletter
+     * Envía el mail de la newsletter
      * 
      * @param  $mail
      * @param  $nombre
-     * @param  $telefono
-     * @param  $consulta
      * @return string
      */
-    public function enviarMailsConsulta($mail, $nombre, $telefono, $consulta, $whatsapp)
+    public function enviarMailsNewsletter($mail, $nombre)
     {
-        $imagen = 'https://preview.ibb.co/bMeFeK/merendalia_logotipo_RGB_01.png';
+        $imagen = 'https://i.ibb.co/7zpwCdR/logos-versiones-Mesa-de-trabajo-1-copia-4.png';
         
         $smtp = new PHPMailer();
         
@@ -252,8 +237,8 @@ class Correo
         $smtp->Port = 465;
         
         // datos de quien realiza el envio
-        $smtp->From = "info@merendalia.es"; // from mail
-        $smtp->FromName = "Administrador de Merendalia"; // from mail name
+        $smtp->From = "hola@valladolidhomestaging.es"; // from mail
+        $smtp->FromName = "Valladolid Home Staging"; // from mail name
         
         // Indicamos las direcciones donde enviar el mensaje con el formato
         // "correo"=>"nombre usuario"
@@ -272,15 +257,22 @@ class Correo
         $contenidoHTML = "<head>";
         $contenidoHTML .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">";
         $contenidoHTML .= "</head><body>";
-        $contenidoHTML .= "<h1 style='color: #d8c12d'>¡Hola " . $nombre . "!</h1>";
-        $contenidoHTML .= "<p>En merendalia hemos recibido tu consulta, nos pondremos en contacto contigo a la mayor brevedad posible.
-											</br>Un saludo y ¡¡gracias por contactar con nosotros!!</p>
-                                                                                        </br><strong>Teléfono de contacto:</strong> 983 85 73 69
-											</br>
-											</br><a href='https://www.merendalia.es'><img src='" . $imagen . "' height='50'/></a>
+        $contenidoHTML .= "<h2 style='color: #f7c300'>¡Hola " . $nombre . "!</h2>";
+        $contenidoHTML .= "<p>Muchas gracias por apuntarte a la newsletter, en breve recibirás noticias nuestras.
+        				   </br></br>Un saludo!!</p>
+                           </br><strong>Teléfono:</strong> 623 11 62 40
+                           </br><strong>Correo:</strong> hola@valladolidhomestaging.es
+                           </br><strong>Web:</strong> https://www.valladolidhomestaging.es
+						   </br>
+											</br><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='130'/></a>
 											</br><p style='font-size: 10px;'><strong>AVISO SEGURIDAD</strong>
-											</br><strong>MERENDALIA C.B</strong> le informa que su dirección de correo electrónico, así como el resto de los datos de carácter personal de su tarjeta de visita que nos facilite, serán objeto de tratamiento automatizado en nuestros ficheros, con la finalidad de gestionar la agenda de contactos de nuestra empresa, para el envío de comunicaciones profesionales y/o personales por vía electrónica. Vd. podrá en cualquier momento ejercer el derecho de acceso, rectificación, cancelación y oposición en los términos establecidos en la Ley Orgánica 15/1999. El responsable del tratamiento es  <strong>MERENDALIA C.B</strong> con domicilio en CALLE PARAÍSO 2, BAJO, 47003, VALLADOLID.
-											</br>El contenido de esta comunicación, así como el de toda la documentación anexa, es confidencial y va dirigido únicamente al destinatario del mismo. En el supuesto de que usted no fuera el destinatario, le solicitamos que nos lo indique y no comunique su contenido a terceros, procediendo a su destrucción. Gracias.</p>";
+											</br><strong>VALLADOLID HOME STAGING</strong> le informa que su dirección de correo electrónico, así como el resto de los datos de carácter personal de su tarjeta de visita 
+											que nos facilite, serán objeto de tratamiento automatizado en nuestros ficheros, con la finalidad de gestionar la agenda de contactos de nuestra empresa, para el 
+											envío de comunicaciones profesionales y/o personales por vía electrónica. Vd. podrá en cualquier momento ejercer el derecho de acceso, rectificación, cancelación y 
+											oposición en los términos establecidos en la Ley Orgánica 15/1999. El responsable del tratamiento es <strong>VALLADOLID HOME STAGING</strong> con domicilio en 
+											CALLE TURQUESA 12, 47012 VALLADOLID.
+											</br>El contenido de esta comunicación, así como el de toda la documentación anexa, es confidencial y va dirigido únicamente al destinatario del mismo. En el supuesto 
+											de que usted no fuera el destinatario, le solicitamos que nos lo indique y no comunique su contenido a terceros, procediendo a su destrucción. Gracias.</p>";
         $contenidoHTML .= "</body>\n";
         
         // Definimos el contenido en formato Texto del correo
@@ -288,7 +280,7 @@ class Correo
         // $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
         
         // Definimos el subject
-        $smtp->Subject = "Merendalia";
+        $smtp->Subject = "VALLADOLID HOME STAGING";
         
         // Adjuntamos el archivo "leameLWP.txt" al correo.
         // Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -308,7 +300,7 @@ class Correo
             
             // Envía el correo.
             if ($smtp->Send()) {
-                $this->enviarCorreoInformativoConsulta($mail, $nombre, $telefono, $consulta, $whatsapp);
+                $this->enviarCorreoInformativoNewsletter($mail, $nombre);
                 $envio = "OK";
             } else {
                 $envio = "KO";
@@ -318,18 +310,16 @@ class Correo
         return $envio;
     }
     
-    /**
-     * enviarCorreoInformativoContacto
-     * Envía el correo informando al administrador de la consulta
+   /**
+     * enviarCorreoInformativoNewsletter
+     * Envía el correo informando al administrador de la newsletter
      * 
      * @param  $mail
      * @param  $nombre
-     * @param  $telefono
-     * @param  $consulta
      */
-    public function enviarCorreoInformativoConsulta($mail, $nombre, $telefono, $consulta, $whatsapp)
+    public function enviarCorreoInformativoNewsletter($mail, $nombre)
     {
-        $imagen = 'https://preview.ibb.co/bMeFeK/merendalia_logotipo_RGB_01.png';
+        $imagen = 'https://i.ibb.co/7zpwCdR/logos-versiones-Mesa-de-trabajo-1-copia-4.png';
         
         $smtp = new PHPMailer();
         
@@ -348,15 +338,14 @@ class Correo
         $smtp->Port = 465;
         
         // datos de quien realiza el envio
-        $smtp->From = "info@merendalia.es"; // from mail
-        $smtp->FromName = "Administrador de Merendalia"; // from mail name
+        $smtp->From = "hola@valladolidhomestaging.es"; // from mail
+        $smtp->FromName = "Valladolid Home Staging"; // from mail name
         
         // Indicamos las direcciones donde enviar el mensaje con el formato
         // "correo"=>"nombre usuario"
         // Se pueden poner tantos correos como se deseen
         $mailTo = array(
-            $this->correoAdministrador => "Administrador",
-            $this->correoBea => "Beatriz"
+            $this->correoAdministrador => "Administrador"
         );
         
         // establecemos un limite de caracteres de anchura
@@ -369,25 +358,13 @@ class Correo
         $contenidoHTML = "<head>";
         $contenidoHTML .= "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">";
         $contenidoHTML .= "</head><body>";
-        $contenidoHTML .= "<h1 style='color: #d8c12d'>¡Hola Administrador!</h1>";
-        $contenidoHTML .= "<p>" . $nombre . " ha realizado una consulta.</p>";
-        
-        if ($consulta != null) {
-            $contenidoHTML .= "</br><p><strong>Consulta: </strong>" . $consulta . ".</p>";
-        }
+        $contenidoHTML .= "<h2 style='color: #f7c300'>¡Hola Administrador!</h2>";
+        $contenidoHTML .= "<p>" . $nombre . " se ha apuntado a la newsletter.</p>";
         
         $contenidoHTML .= "</br><p><strong>Mail: </strong>" . $mail . ".</p>";
         
-        if ($telefono != null) {
-            $contenidoHTML .= "</br><p><strong>Teléfono: </strong>" . $telefono . ".</p>";
-        }
-        
-        if ($whatsapp == "OK") {
-            $contenidoHTML .= "</br><p>" . $nombre . " acepta ser añadido a la <i>Lista de difusión por whatsapp.</i></p>";
-        }
-        
         $contenidoHTML .= "</br>
-						  </br><p><a href='https://www.merendalia.es'><img src='" . $imagen . "' height='50'/></a></p>";
+						  </br><p><a href='https://www.valladolidhomestaging.es'><img src='" . $imagen . "' height='130'/></a></p>";
         
         $contenidoHTML .= "</body>\n";
         
@@ -396,7 +373,7 @@ class Correo
         // $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
         
         // Definimos el subject
-        $smtp->Subject = "Merendalia";
+        $smtp->Subject = "VALLADOLID HOME STAGING";
         
         // Adjuntamos el archivo "leameLWP.txt" al correo.
         // Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el

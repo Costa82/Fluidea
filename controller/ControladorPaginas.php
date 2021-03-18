@@ -63,6 +63,48 @@ class ControladorPaginas {
 	}
 	
 	/**
+	 * Metodo que llama a la accion servicios Brújula
+	 */
+	public function servicios_paquetes_brujula() {
+		$_SESSION['nombre_pagina'] = 'Servicios Brújula';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/servicios_paquetes_brujula.php';
+	}
+	
+	/**
+	 * Metodo que llama a la accion servicios de Descongestión
+	 */
+	public function servicios_paquetes_descongestion() {
+		$_SESSION['nombre_pagina'] = 'Servicios Descongestión';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/servicios_paquetes_descongestion.php';
+	}
+	
+	/**
+	 * Metodo que llama a la accion servicios de Digitalización
+	 */
+	public function servicios_paquetes_digitalizacion() {
+		$_SESSION['nombre_pagina'] = 'Servicios Digitalización';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/servicios_paquetes_digitalizacion.php';
+	}
+	
+	/**
 	 * Metodo que llama a la accion blog
 	 */
 	public function blog() {

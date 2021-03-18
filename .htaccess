@@ -1,7 +1,7 @@
 RewriteEngine On
-RewriteRule ^([a-z_]+)$ index.php?action=$1 [L]
-RewriteRule ^([a-z_]+)/pag:([0-9]+)$ index.php?action=$1&opcion=$2 [L]
-RewriteRule ^([a-z_]+)/([0-9]+)$ index.php?action=$1&opcion=$2 [L]
+RewriteRule ^([a-z_-]+)$ index.php?action=$1 [L]
+RewriteRule ^([a-z_-]+)/pag:([0-9]+)$ index.php?action=$1&opcion=$2 [L]
+RewriteRule ^([a-z_-]+)/([0-9]+)$ index.php?action=$1&opcion=$2 [L]
 
 #Error
 RewriteEngine On
