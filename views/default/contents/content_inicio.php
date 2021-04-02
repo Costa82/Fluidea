@@ -10,7 +10,7 @@
 
 	<div class="texto">
 	
-		<p class="letra_indie">
+		<p>
 			<strong>En un mundo que requiere cambios para afrontar el futuro más
 				inmediato, ayudo a personas que tienen ideas para que disfruten del
 				placer de llevarlas a cabo de manera más rápida y más segura.</strong>

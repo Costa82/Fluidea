@@ -83,8 +83,8 @@ class Utils
 	
 		/**
 	 * Guardamos la imagen en la carpeta de destino
-	 * @param unknown_type $carpetaDestino
-	 * @param unknown_type $archivo
+	 * @param $carpetaDestino
+	 * @param $archivo
 	 */
 	public static function guardarImagen($carpetaDestino, $archivo) {
 

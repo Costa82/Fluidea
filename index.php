@@ -3,10 +3,12 @@ session_start();
 require_once 'core/Connection.php';
 
 // Incluimos automaticamente el model que sea necesario
-function __autoload($class)
+function my_autoloader($class)
 {
     require_once ("models/$class.php");
 }
+
+spl_autoload_register('my_autoloader');
 
 // Enrutamiento. Selecciona el controlador y la accion a ejecutar
 $map = array(

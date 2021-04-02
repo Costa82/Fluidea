@@ -8,7 +8,7 @@
 
 		<p class="texto_centrado">¡Mira a ver cuál es la que más te cuadra!</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_negra">
 
 			<li><p>
 					<a href="#basico"><strong>BIENVENIDO AL MUNDO DIGITAL BÁSICO</strong>
@@ -34,25 +34,27 @@
 
 <div class="contenedor_texto">
 
-	<p>
-		<strong class="letra_indie">Proporcionan:</strong>
-	</p>
+	<div class="texto">
 
-	<ul class="lista_texto">
-		<li><p>Un paquete para iniciar tu marca y hacerla visible en el mundo
-				online</p>
-		</li>
-		<li><p>Mayor visibilidad a tu empresa y de tu marca</p>
-		</li>
-		<li><p>Algunos de los paquetes, incluyen un pack de documentos para
-				tener en tu tienda física o enviar a tus clientes.</p>
-		</li>
-		<li><p>Algunos de los paquetes, incluyen una formación para que seas
-				autónomo en las redes sociales.</p>
-		</li>
-	</ul>
+    	<p>
+    		<strong class="letra_indie">Proporcionan:</strong>
+    	</p>
+    
+    	<ul class="lista_amarilla">
+    		<li><p>Un paquete para iniciar tu marca y hacerla visible en el mundo
+    				online</p>
+    		</li>
+    		<li><p>Mayor visibilidad a tu empresa y de tu marca</p>
+    		</li>
+    		<li><p>Algunos de los paquetes, incluyen un pack de documentos para
+    				tener en tu tienda física o enviar a tus clientes.</p>
+    		</li>
+    		<li><p>Algunos de los paquetes, incluyen una formación para que seas
+    				autónomo en las redes sociales.</p>
+    		</li>
+    	</ul>
 
-</div>
+	</div>
 
 </div>
 
@@ -64,7 +66,7 @@
 			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Tienes claro que cualquier tipo de negocio, tiene que tener
 					presencia en internet</p>
 			</li>
@@ -140,11 +142,11 @@
 		<strong class="letra_indie">Qué incluye:</strong>
 	</p>
 
-	<ul class="lista_texto">
+	<ul class="lista_amarilla">
 		<li><p>Imagen corporativa básica (logo o imagologo versión básica)</p>
 		</li>
 		<li><p>Creación del perfil digital básico:</p>
-			<ul class="lista_texto lista_secundaria">
+			<ul class="lista_amarilla lista_secundaria">
 
 				<li><p>2 RRSS (a elegir)</p>
 				</li>
@@ -188,14 +190,14 @@
 		<strong class="letra_indie">Qué incluye:</strong>
 	</p>
 
-	<ul class="lista_texto">
+	<ul class="lista_amarilla">
 		<li><p>Imagen corporativa básica (logo o imagologo versión básica y en
 				negativo o sobre otros colores diferentes a los corporativos;
 				incluye dossier con paleta de colores corporativa y tipografías a
 				utilizar)</p>
 		</li>
 		<li><p>Creación del perfil digital medium:</p>
-			<ul class="lista_texto lista_secundaria">
+			<ul class="lista_amarilla lista_secundaria">
 
 				<li><p>3 RRSS (a elegir)</p>
 				</li>
@@ -245,14 +247,14 @@
 		<strong class="letra_indie">Qué incluye:</strong>
 	</p>
 
-	<ul class="lista_texto">
+	<ul class="lista_amarilla">
 		<li><p>Imagen corporativa básica (logo e imagologo, versión normal y
 				en negativo o sobre otros colores diferentes a los corporativos;
 				incluye dossier con paleta de colores corporativa y tipografías a
 				utilizar)</p>
 		</li>
 		<li><p>Creación del perfil digital premium:</p>
-			<ul class="lista_texto lista_secundaria">
+			<ul class="lista_amarilla lista_secundaria">
 
 				<li><p>3 RRSS (a elegir)</p>
 				</li>

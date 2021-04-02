@@ -64,7 +64,7 @@
 			</li>
 
 
-			<li><p>Brot o</p>
+			<li><p>Broto</p>
 			</li>
 			<li><p>Trabajo contigo: tú a tu idea, yo a allanarte el camino</p>
 			</li>

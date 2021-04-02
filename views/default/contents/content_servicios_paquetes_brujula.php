@@ -16,7 +16,7 @@
 
 		<p class="texto_centrado">¡Mira a ver cuál es la que más te cuadra!</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_negra">
 			<a href="#revisamos">
 				<li><p>
 						<strong>¡REVISAMOS JUNTOS TU B.P.!</strong>
@@ -49,7 +49,7 @@
 			<strong class="letra_indie">Proporciona:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Business Plan completo</p>
 			</li>
 			<li><p>Resumen ejecutivo</p>
@@ -68,7 +68,7 @@
 			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Tienes tu idea, pero quieres materializarla y no sabes por
 					dónde empezar</p>
 			</li>
@@ -173,7 +173,7 @@
 
 		<p>Explicación de Forma Jurídica</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Presentación del Proyecto</p>
 			</li>
 			<li><p>Plan de Marketing (con análisis DAFO)</p>
@@ -233,7 +233,7 @@
 
 		<p>Explicación de Forma Jurídica</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Presentación extensa del Proyecto</p>
 			</li>
 			<li><p>Plan de Marketing (con: análisis de las 4 P´s del marketing,

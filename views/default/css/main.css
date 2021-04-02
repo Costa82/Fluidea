@@ -15,6 +15,11 @@
 	src: url(../fonts/Quicksand-Regular.ttf);
 }
 
+@font-face {
+	font-family: WaitingfortheSunrise-Regular;
+	src: url(../fonts/WaitingfortheSunrise-Regular.ttf);
+}
+
 h1,h2,h3,h4,p,ul,body {
 	margin: 0;
 	padding: 0;
@@ -140,7 +145,7 @@ a.amarillo1:hover {
 }
 
 .letra_indie {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'WaitingfortheSunrise-Regular', cursive;
 	font-size: 19px;
 }
 
@@ -318,7 +323,7 @@ nav>ul>li>ul#lista_movil li {
 }
 
 .contenedor_superior_inicio {
-	padding: 20px;
+	padding: 20px 20px 5px 20px;
 	border-radius: 10px;
 	margin-top: -110px;
 	transition: all .5s ease-in-out;
@@ -330,9 +335,40 @@ nav>ul>li>ul#lista_movil li {
 	opacity: 1;
 }
 
-ul.lista_texto {
-	list-style: circle;
+ul.lista_amarilla, ul.lista_negra, ul.lista_puntos, ul.lista_rosa {
 	padding-left: 25px;
+}
+
+ul.lista_amarilla li, ul.lista_negra li, ul.lista_puntos li, ul.lista_rosa li {
+	list-style: none;
+}
+
+ul.lista_amarilla li::before, ul.lista_negra li::before, ul.lista_puntos li::before, ul.lista_rosa li::before {
+	content: '';
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: -30px;
+	float: left;
+}
+
+ul.lista_amarilla li::before {
+	background-image: url("../img/recursos graficos/Borrón amarillo fondo transparente.png");
+}
+
+ul.lista_negra li::before {
+	opacity: 0.6;
+	background-image: url("../img/recursos graficos/Borrón negro fondo transparente.png");
+}
+
+ul.lista_puntos li::before {
+	background-image: url("../img/recursos graficos/puntos negro fondo transparente.png");
+}
+
+ul.lista_rosa li::before {
+	background-image: url("../img/recursos graficos/Borrón rosa fondo transparente.png");
 }
 
 ul.lista_numerica {
@@ -630,7 +666,7 @@ footer h3 {
 	}
 	.contenedor_texto {
 		width: 70%;
-		margin: 40px auto 0;
+		margin-top: 60px;
 	}
 	.contenedor_superior {
 		margin-top: -190px;

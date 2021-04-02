@@ -12,7 +12,7 @@
 
 		<p>Tengo dos maneras de ayudarte:</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_negra">
 			<a href="#asesoramiento">
 				<li><p>
 						<strong>ASESORAMIENTO.</strong> Mentorías de situación de proyecto
@@ -67,7 +67,7 @@
 			<i>(las siguientes sesiones son a 33€+IVA de una hora de duración)</i>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Nos reuniremos en un primer encuentro</p></li>
 			<li><p>Hablaremos de la situación de tu Idea o proyecto para ver en
 					qué punto te encuentras y qué necesidades tienes. O de lo que te
@@ -98,7 +98,7 @@
 			<strong class="letra_indie">¿Cómo lo vamos a hacer?</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Reserva una fecha y una hora a la que te Venga bien que
 					tengamos nuestra primera Reunión.</p></li>
 		</ul>
@@ -122,7 +122,7 @@
 
 	<div class="texto">
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Las siguientes las iremos reservando cuando nos venga bien a
 					lxs dos, e iremos haciendo planning de lo que veremos en la
 					siguiente reunión.</p></li>
@@ -142,7 +142,7 @@
 			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Aun no tienes claro cómo poner en marcha tu idea</p></li>
 			<li><p>Necesitas que un experto valore tu idea para darte seguridad</p>
 			</li>
@@ -195,7 +195,7 @@
 			<strong class="letra_indie">¿Qué vamos a hacer?</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Vas a externalizar completamente una parte de tu proyecto,
 					para que tú tengas tiempo libre para llevar a cabo toda la idea.</p>
 			</li>
@@ -224,7 +224,7 @@
 			<strong class="letra_indie">¿Cómo lo vamos a hacer?</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Contratas el servicio o servicios que necesitas</p>
 			</li>
 			<li><p>Si te falta algo que no encuentras, llámame y vemos cómo

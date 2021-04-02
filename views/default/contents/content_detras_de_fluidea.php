@@ -125,7 +125,7 @@
 		<p>Por si aún no lo tienes claro, te digo que, estás en el lugar
 			idóneo si:</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Quieres emprender y estás empezando</p></li>
 			<li><p>Tienes una idea genial que siente que tienes que poner en
 					marcha sí o sí, para que no se la pierda el mundo</p></li>

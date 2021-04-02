@@ -8,7 +8,7 @@
 
 		<p class="texto_centrado">¡Mira a ver cuál es la que más te cuadra!</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_negra">
 
 			<li><p>
 					<a href="#empresario"><strong>¡YA SOY EMPRESARIO!</strong> </a>
@@ -22,7 +22,7 @@
 			<li><p>
 					<a href="#proveete"><strong>¡PROVÉETE!</strong> </a>
 				</p>
-				<ul class="lista_texto lista_secundaria">
+				<ul class="lista_puntos lista_secundaria">
 
 					<li><p>
 							<a href="#basico"><strong>PROVEE TU NEGOCIO. PAQUETE BÁSICO</strong>
@@ -105,7 +105,7 @@
 			<strong class="letra_indie">Proporcionan:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Elección del IAE que se adapte mejor a tu actividad</p>
 			</li>
 			<li><p>Alta en Hacienda</p>
@@ -119,7 +119,7 @@
 		<p>Si contratas el paquete para CB, además de o anterior, también
 			incluye:</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Redacción de contrato privado de constitución de CB (Comunidad
 					de Bienes)</p>
 			</li>
@@ -143,7 +143,7 @@
 			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Ya tienes clara tu idea de negocio y quieres empezar a
 					trabajar</p>
 			</li>
@@ -206,7 +206,7 @@
 			<strong class="letra_indie">Proporcionan:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Búsqueda de subvenciones que se adapten a ti y a tu proyecto y
 					a las que puedas optar</p>
 			</li>
@@ -236,7 +236,7 @@
 			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Necesitas dinero para financiar tu proyecto</p>
 			</li>
 			<li><p>Estas hartx de que te digan que existen subvenciones</p>
@@ -310,7 +310,7 @@
 		<p>A parte de todas esas ventajas, seguirás teniendo todos los
 			beneficios de gestionar tú mismx los proveedores:</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Tendré siempre presentes, una por una, las características que
 					para ti son importantes que tenga un proveedor. )Por ejemplo, si
 					eres una emprendedora que está montando un negocio de costura de
@@ -346,7 +346,7 @@
 			<strong class="letra_indie">Proporcionan:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Gestión integral de proveedores</p>
 			</li>
 			<li><p>Externalización de dicha gestión</p>
@@ -381,7 +381,7 @@
 			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Ya has empezado a rodar tu proyecto</p>
 			</li>
 			<li><p>Sabes qué tipo de proveedores necesitas</p>
@@ -458,7 +458,7 @@
 			<strong class="letra_indie">Qué incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>
 					<strong>Toma de datos</strong> sobre las características que
 					requieres para el proveedor (ejm. Fabricación en España, empresa
@@ -520,7 +520,7 @@
 			<strong class="letra_indie">Qué no incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>No incluye una obligatoriedad de entrega de presupuestos en
 					una fecha requerida por el cliente.</p>
 			</li>
@@ -569,7 +569,7 @@
 			<strong class="letra_indie">Qué incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>
 					<strong>Toma de datos</strong> sobre las características que
 					requieres para el proveedor (ejm. Fabricación en España, empresa
@@ -636,7 +636,7 @@
 			<strong class="letra_indie">Qué no incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>No incluye el pivotaje en la tipología de los clientes, una
 					vez aprobada por ambas partes la toma de datos sobre sus
 					características (es decir, si me dices que tu proveedor de botones
@@ -685,7 +685,7 @@
 			<strong class="letra_indie">Qué incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>
 					<strong>Toma de datos</strong> sobre las características que
 					requieres para el proveedor (ejm. Fabricación en España, empresa
@@ -762,7 +762,7 @@
 			<strong class="letra_indie">Qué no incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>No incluye visitas insitu a los proveedores</p>
 			</li>
 		</ul>
@@ -817,7 +817,7 @@
 			<strong class="letra_indie">Olvidate de:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>hacer o recibir llamadas de proveedores,</p>
 			</li>
 			<li><p>negociar cláusulas,</p>
@@ -837,7 +837,7 @@
 			<strong class="letra_indie">Qué incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>EXTERNALIZA LA GESTIÓN DE PROVEEDORES POR COMPLETO</p>
 			</li>
 		</ul>
@@ -870,7 +870,7 @@
 			<strong class="letra_indie">Qué no incluye:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>No incluye lo que incluyen los demás packs de Gestión de
 					Proveedores, este producto es para cuando ya tienes ciertos
 					proveedores en marcha, gestionarlos, y en tal caso, intercambiar
@@ -915,7 +915,7 @@
 			<strong class="letra_indie">Proporciona:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Plan de prevención de riesgos laborales</p>
 			</li>
 			<li><p>Todo lo necesario para tener al día la LOPD</p>
@@ -964,7 +964,7 @@
 			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Estás decidido a hacer de tu idea un negocio real</p>
 			</li>
 			<li><p>Para todos los negocios, este servicio es obligatorio, ya que
@@ -1016,7 +1016,7 @@
 		<strong class="letra_indie">Proporciona:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Estudio tipo de licencias necesarias para llevar a cabo la
 					actividad</p>
 			</li>
@@ -1039,7 +1039,7 @@
 		<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Odias el papeleo</p>
 			</li>
 			<li><p>Tienes mucha necesidad de sacar la licencia cuanto antes</p>
@@ -1084,7 +1084,7 @@
 		<strong class="letra_indie">Proporciona:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_amarilla">
 			<li><p>Asesoramiento y tramitación del registro de una marca</p>
 			</li>
 			<li><p>Delimitación de las áreas de actividad sobre las que se va a
@@ -1111,7 +1111,7 @@
 		<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
-		<ul class="lista_texto">
+		<ul class="lista_rosa">
 			<li><p>Sabes que tu marca es muy golosa y replicable</p>
 			</li>
 			<li><p>Si ya llevas tiempo con tu negocio, ya sabes que ahora es el
