@@ -54,6 +54,22 @@ $map = array(
         'controller' => 'ControladorPaginas',
         'action' => 'servicios_paquetes_digitalizacion',
         'privada' => false
+    ), 'aviso_legal' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'aviso_legal',
+        'privada' => false
+    ), 'politica_privacidad_y_proteccion_datos' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'politica_privacidad_y_proteccion_datos',
+        'privada' => false
+    ), 'declaracion_cookies' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'declaracion_cookies',
+        'privada' => false
+    ), 'newsletter' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'newsletter',
+        'privada' => false
     ),
     
     // Formularios
@@ -78,6 +94,11 @@ $map = array(
 // Parseo de la ruta
 // Comprobamos si hay alguna accion que ejecutar, sino ejecutamos inicio
 if (isset($_GET['action'])) {
+
+	$_SESSION['id'] = null;
+	if (isset($_GET['id'])) {
+		$_SESSION['id'] = $_GET['id'];
+	}
     
     // Hacemos un replace para las urls amigables con '-'
     $action_normalizado = str_replace("-", "_", $_GET['action']);

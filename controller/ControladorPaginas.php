@@ -160,5 +160,61 @@ class ControladorPaginas {
 
 		require './views/page404.php';
 	}
+	
+	/**
+	 * Metodo que llama a la accion aviso_legal
+	 */
+	public function aviso_legal() {
+		$_SESSION['nombre_pagina'] = 'Aviso Legal';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/aviso_legal.php';
+	}
+	
+	/**
+	 * Metodo que llama a la accion politica_privacidad_y_proteccion_datos
+	 */
+	public function politica_privacidad_y_proteccion_datos() {
+		$_SESSION['nombre_pagina'] = 'Politica de privacidad y Proteccion de datos';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/politica_privacidad_y_proteccion_datos.php';
+	}
+	
+	/**
+	 * Metodo que llama a la accion politica_privacidad_y_proteccion_datos
+	 */
+	public function declaracion_cookies() {
+		$_SESSION['nombre_pagina'] = 'Declaración de Cookies';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/declaracion_cookies.php';
+	}
+	
+	/**
+	 * Metodo que llama a la accion newsletter
+	 */
+	public function newsletter() {
+		$_SESSION['nombre_pagina'] = 'Newsletter';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/newsletter.php';
+	}
 
 }

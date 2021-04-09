@@ -94,5 +94,5 @@ abstract class AbstractBBDD {
             echo $conexion->errno . " -> " . $conexion->error;
         }
     }
-
+    
 }

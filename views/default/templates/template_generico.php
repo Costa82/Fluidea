@@ -150,7 +150,7 @@ else
 	<!-- Footer -->
 	<?php 
 		if (isset($_SESSION['nombre_pagina']) && ($_SESSION['nombre_pagina'] == 'Envio' ||
-		$_SESSION['nombre_pagina'] == 'Página de Error 404'))
+		$_SESSION['nombre_pagina'] == 'Página de Error 404' || $_SESSION['nombre_pagina'] == 'Newsletter'))
 			echo "<footer class='fixed'>";
 		else
 			echo "<footer>";

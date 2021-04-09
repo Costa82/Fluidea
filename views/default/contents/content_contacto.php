@@ -1,4 +1,4 @@
-<!-- Contenido de la pagina de Detrás de Fluidea -->
+<!-- Contenido de la pagina de Contacto -->
 
 <div class="contenedor_texto contenedor_superior amarillo">
 

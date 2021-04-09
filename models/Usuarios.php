@@ -108,7 +108,7 @@ class Usuarios extends AbstractBBDD {
 	}
 
 	public function setDireccion($direccion) {
-		$this->direccion = direccion;
+		$this->direccion = $direccion;
 	}
 	
 	public function getCodigo_postal() {
@@ -116,7 +116,7 @@ class Usuarios extends AbstractBBDD {
 	}
 
 	public function setCodigo_postal($codigo_postal) {
-		$this->codigo_postal = codigo_postal;
+		$this->codigo_postal = $codigo_postal;
 	}
 	
 	public function getNewsletter() {
@@ -124,7 +124,7 @@ class Usuarios extends AbstractBBDD {
 	}
 
 	public function setNewsletter($newsletter) {
-		$this->newsletter = newsletter;
+		$this->newsletter = $newsletter;
 	}
 	
 	public function getById($id) {
@@ -171,7 +171,7 @@ class Usuarios extends AbstractBBDD {
 
 		$query = "INSERT INTO " . $this->tabla . " (nombre, apellidos, password,
 						email, telefono, cif_nif, direccion, codigo_postal, newsletter, tipo_usuario, estado)
-	                	VALUES('" . $this->nick . "',
+	                	VALUES(
 	                       '" . $this->nombre . "',
 	                       '" . $this->apellidos . "',
 	                       '" . $this->password . "',
@@ -232,5 +232,20 @@ class Usuarios extends AbstractBBDD {
 		}
 
 		return $resultado;
+	}
+	
+	/**
+	 * Actualizamos el campo pasado por id
+	 * 
+	 * @param String $column Columna a actualizar.
+	 * @param String $value Valor de la columna a actualizar.
+	 */
+	public function udpateById($column, $value, $id)
+	{
+		$query = "UPDATE " . $this->tabla . " SET " . $column . " = '" . $value . "' WHERE id_usuario = '" . $id . "'";
+
+		$udpate = $this->c->query($query);
+		
+		return $udpate;
 	}
 }

@@ -34,12 +34,27 @@ class ControladorFormularios {
 
 			if(isset($_REQUEST['nombre']) AND isset($_REQUEST['mail']) AND isset($_REQUEST['consulta'])){
 
+				// Creamos un usuario
+				$usuario = new Usuarios();
+
+				$usuario->setTipo_usuario("USU");
+				$usuario->setEstado("ACTV");
+				
 				// Campos obligatorios
 				$nombre = $_REQUEST['nombre'];
+				$usuario->setNombre($nombre);
 
 				$mail = $_REQUEST['mail'];
+				$usuario->setEmail($mail);
+				$usuario->setNewsletter('NO');
 					
 				$consulta = $_REQUEST['consulta'];
+				
+				if (isset($_POST['newsletter']) && $_POST['newsletter'] == '1') {
+					$newsletter = "SI";
+				} else {
+					$newsletter = "NO";
+				}
 					
 				// Enviamos el correo de contacto
 				// Comprobamos que no sea ninguno de estos correos (info@basededatos-info.com, yourmail@gmail.com)
@@ -47,10 +62,20 @@ class ControladorFormularios {
 					$envio = "KO";
 				} else {
 					$correo = new Correo();
-					$envio = $correo->enviarMailsConsulta($mail, $nombre, $telefono, $consulta);
+					
+					// Guardamos el usuario
+					$usuario->saveUsuario();
+					
+					// Calculamos el id del usuario para enviarlo en el enlace de la newsletter si hiciera falta
+					$id = null;
+					if (isset($_POST['newsletter']) && $_POST['newsletter'] == '1') {
+						$id = $usuario->getCampoBy("id_usuario", "email", $mail);
+					}
+					
+					$envio = $correo->enviarMailsConsulta($mail, $nombre, $consulta, $newsletter, $id);
 				}
 					
-				// Comprobamos cómo ha ido el envío
+				// Comprobamos cómo ha ido el envío y registramos el usuario
 				if ($envio != "OK") {
 					$_SESSION['error'] = 501;
 				}
