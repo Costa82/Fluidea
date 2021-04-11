@@ -4,7 +4,7 @@
 
 	<div class='texto'>
 
-		<h1>UPS! NO HEMOS ENCONTRADO ESTA PÁGINA</h1>
+		<h1 class="letra_indie">UPS! NO HEMOS ENCONTRADO ESTA PÁGINA</h1>
 	
 		<p>Lo sentimos pero esta página no está disponible, vamos a intentar
 			resolver el problema lo antes posible. Si el error persiste puede

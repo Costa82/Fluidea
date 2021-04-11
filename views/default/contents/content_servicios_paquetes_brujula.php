@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto enmarcado amarillo">
 
-	<h1>SERVICIOS PAQUETES BRÚJULA</h1>
+	<h1 class="letra_indie">SERVICIOS PAQUETES BRÚJULA</h1>
 
 	<div class="texto">
 

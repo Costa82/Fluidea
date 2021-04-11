@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto contenedor_superior amarillo">
 
-	<h1>CONTACTO</h1>
+	<h1 class="letra_indie">CONTACTO</h1>
 
 	<div class="texto">
 

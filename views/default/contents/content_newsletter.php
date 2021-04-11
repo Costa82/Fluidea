@@ -4,7 +4,7 @@
 
 	<div class='texto'>
 
-		<h1 class="letra_indie">REGISTRANDO <i class="fa fa-cog fa-spin"></i></h1>
+		<h1 class="letra_indie">Registrando... <i class="fa fa-cog fa-spin"></i></h1>
 	
 		<p>¡Estamos realizando tu registro en nuestra lista de gente importante!
 		</br>

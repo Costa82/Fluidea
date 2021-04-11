@@ -10,7 +10,7 @@
 
 <div class="contenedor_texto enmarcado">
 
-	<h1>MANIFIESTO POP UP FLOW</h1>
+	<h1 class="letra_indie">MANIFIESTO POP UP FLOW</h1>
 
 	<div class="texto">
 

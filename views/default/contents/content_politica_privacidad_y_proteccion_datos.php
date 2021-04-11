@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto">
 
-	<h1>POLÍTICA DE PRIVACIDAD Y PROTECCIÓN DE DATOS</h1>
+	<h1 class="letra_indie">POLÍTICA DE PRIVACIDAD Y PROTECCIÓN DE DATOS</h1>
 
 	<div class="texto">
 

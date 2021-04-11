@@ -143,20 +143,23 @@
 
 <div class="contenedor_texto contenedor_flex">
 
-	<a
+	<div class="bloque azul flex">
+		<a
 		onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
-		<div class="bloque azul flex">
-			<h3>ASESORAMIENTO</h3>
+			<h3 class="letra_indie">ASESORAMIENTO</h3>
 			<p>Mentorías de situación de proyecto</p>
 			<p>¿qué necesitas?</p>
 			<p>(La primera de media hora es gratuita)</p>
-		</div> </a> <a href="servicios">
-		<div class="bloque rosa flex">
-			<h3>ACOMPAÑAMIENTO</h3>
+		</a>
+	</div>
+	<div class="bloque rosa flex">
+		<a href="servicios">
+			<h3 class="letra_indie">ACOMPAÑAMIENTO</h3>
 			<p>Tercerización de todo aquello que:</p>
 			<p>No sabes hacer</p>
 			<p>O no tienes tiempo para hacerlo</p>
-		</div> </a>
+		</a>
+	</div>
 
 </div>
 

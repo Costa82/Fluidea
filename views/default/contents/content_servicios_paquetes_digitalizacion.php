@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto enmarcado amarillo">
 
-	<h1>¡BIENVENIDO AL MUNDO DIGITAL!</h1>
+	<h1 class="letra_indie">¡BIENVENIDO AL MUNDO DIGITAL!</h1>
 
 	<div class="texto">
 

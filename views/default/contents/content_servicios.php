@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto contenedor_superior amarillo">
 
-	<h1>SERVICIOS</h1>
+	<h1 class="letra_indie">SERVICIOS</h1>
 
 	<div class="texto">
 
@@ -109,12 +109,12 @@
 
 <div class="contenedor_bloques contenedor_flex">
 
-	<a
-		onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
-		<div class="bloque rosa flex">
+	<div class="bloque rosa flex">
+		<a onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
 			<p class="texto_centrado">¡No me lo pienso más Bea!</p>
 			<h3 class="letra_indie">RESERVO LA SESIÓN GRATUITA</h3>
-		</div> </a>
+		</a>
+	</div>
 
 </div>
 
@@ -122,7 +122,7 @@
 
 	<div class="texto">
 
-		<ul class="lista_amarilla">
+		<ul class="lista_rosa">
 			<li><p>Las siguientes las iremos reservando cuando nos venga bien a
 					lxs dos, e iremos haciendo planning de lo que veremos en la
 					siguiente reunión.</p></li>
@@ -156,12 +156,12 @@
 
 <div class="contenedor_bloques contenedor_flex">
 
-	<a
-		onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
-		<div class="bloque azul flex">
+	<div class="bloque azul flex">
+		<a onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
 			<p class="texto_centrado">Ahora sí que lo tengo claro, Bea</p>
 			<h3 class="letra_indie">RESERVO LA SESIÓN GRATUITA</h3>
-		</div> </a>
+		</a>
+	</div> 
 
 </div>
 
@@ -260,22 +260,22 @@
 
 <div class="contenedor_bloques contenedor_flex">
 
-	<a href="servicios-paquetes-brujula">
-		<div class="bloque rosa flex">
-			<h3>PAQUETES BRÚJULA</h3>
-		</div>
-	</a> 
+	<div class="bloque rosa flex">
+		<a href="servicios-paquetes-brujula">
+			<h3 class="letra_indie">PAQUETES BRÚJULA</h3>
+		</a>
+	</div>
 		
-	<a href="servicios-paquetes-descongestion">
-		<div class="bloque azul flex">
-			<h3>PAQUETES DES-CON-GESTIÓN</h3>
-		</div>
-	</a>
+	<div class="bloque azul flex">	
+		<a href="servicios-paquetes-descongestion">
+			<h3 class="letra_indie">PAQUETES DES-CON-GESTIÓN</h3>
+		</a>
+	</div>
 	
-	<a href="servicios-paquetes-digitalizacion">
-		<div class="bloque rosa flex">
-			<h3>PAQUETES DIGITALIZACIÓN</h3>
-		</div>
-	</a>
+	<div class="bloque rosa flex">
+		<a href="servicios-paquetes-digitalizacion">
+			<h3 class="letra_indie">PAQUETES DIGITALIZACIÓN</h3>
+		</a>
+	</div>
 
 </div>

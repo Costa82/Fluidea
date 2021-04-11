@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto enmarcado amarillo">
 
-	<h1>SERVICIOS PAQUETES DESCONGESTIÓN</h1>
+	<h1 class="letra_indie">SERVICIOS PAQUETES DESCONGESTIÓN</h1>
 
 	<div class="texto">
 
@@ -1013,7 +1013,8 @@
 
 	<div class="texto">
 
-		<strong class="letra_indie">Proporciona:</strong>
+		<p>
+			<strong class="letra_indie">Proporciona:</strong>
 		</p>
 
 		<ul class="lista_amarilla">
@@ -1036,7 +1037,8 @@
 
 	<div class="texto">
 
-		<strong class="letra_indie">Este servicio es para ti si:</strong>
+		<p>
+			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
 		<ul class="lista_rosa">
@@ -1081,7 +1083,8 @@
 
 	<div class="texto">
 
-		<strong class="letra_indie">Proporciona:</strong>
+		<p>
+			<strong class="letra_indie">Proporciona:</strong>
 		</p>
 
 		<ul class="lista_amarilla">
@@ -1108,7 +1111,8 @@
 
 	<div class="texto">
 
-		<strong class="letra_indie">Este servicio es para ti si:</strong>
+		<p>
+			<strong class="letra_indie">Este servicio es para ti si:</strong>
 		</p>
 
 		<ul class="lista_rosa">

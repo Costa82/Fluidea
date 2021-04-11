@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto">
 
-	<h1>BLOG</h1>
+	<h1 class="letra_indie">BLOG</h1>
 
 	<div class="texto">
 

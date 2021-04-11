@@ -2,7 +2,7 @@
 
 <div class="contenedor_texto">
 
-	<h1>AVISO LEGAL</h1>
+	<h1 class="letra_indie">AVISO LEGAL</h1>
 
 	<div class="texto">
 
