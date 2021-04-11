@@ -74,6 +74,10 @@ $map = array(
         'controller' => 'ControladorPaginas',
         'action' => 'recurso',
         'privada' => false
+    ), 'baja' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'baja',
+        'privada' => false
     ),
     
     // Formularios

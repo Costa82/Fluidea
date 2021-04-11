@@ -8,7 +8,7 @@
 	
 		<p>Estamos realizando tu registro en nuestra lista de gente importante y enviándote tu recurso gratuíto.
 		</br>
-		En unos minutos recibirás correo, si no lo recibieras puedes ponerte en contacto con nosotros por estos otros medios:
+		En unos minutos recibirás el correo, si no lo recibieras puedes ponerte en contacto con nosotros por estos otros medios:
 		</br>		
 		<?php 
 			include_once("./views/default/templates/template_datosContacto.php");

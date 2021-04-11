@@ -11,7 +11,7 @@ $id = null;
 if (isset($_SESSION['id'])) {
 	$id = $_SESSION['id'];
 	
-	// Obtenemos el nombre y mail del usuario para enviar el correo del registro en la newsletter
+	// Obtenemos el nombre y mail del usuario para enviar el correo de baja
 	if ($id != null) {
 		
 		// Creamos un usuario
@@ -24,16 +24,16 @@ if (isset($_SESSION['id'])) {
 			$nombre = $usuarioActual["nombre"];
 			$mail = $usuarioActual["email"];
 			
-			$envio = $correo->enviarMailsConFichero($mail, $nombre, $id);
+			$envio = $correo->enviarMailsBajaNewsletter($mail, $nombre);
 			
 			if ($envio == "OK") {
-				$usuario->udpateById("newsletter", "SI", $id);
+				$usuario->udpateById("newsletter", "NO", $id);
 			}
 		}
 	}
 }
 	
-include_once './views/default/contents/content_recurso.php';
+include_once './views/default/contents/content_baja.php';
 
 $contenido = ob_get_clean();
 

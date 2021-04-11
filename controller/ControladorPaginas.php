@@ -230,5 +230,19 @@ class ControladorPaginas {
 		}
 		require './views/recurso.php';
 	}
+	
+	/**
+	 * Metodo que llama a la accion baja
+	 */
+	public function baja() {
+		$_SESSION['nombre_pagina'] = 'Baja';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/baja.php';
+	}
 
 }

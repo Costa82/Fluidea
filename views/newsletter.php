@@ -24,7 +24,7 @@ if (isset($_SESSION['id'])) {
 			$nombre = $usuarioActual["nombre"];
 			$mail = $usuarioActual["email"];
 			
-			$envio = $correo->enviarMailsNewsletter($mail, $nombre);
+			$envio = $correo->enviarMailsNewsletter($mail, $nombre, $id);
 			
 			if ($envio == "OK") {
 				$usuario->udpateById("newsletter", "SI", $id);
