@@ -70,6 +70,10 @@ $map = array(
         'controller' => 'ControladorPaginas',
         'action' => 'newsletter',
         'privada' => false
+    ), 'recurso' => array(
+        'controller' => 'ControladorPaginas',
+        'action' => 'recurso',
+        'privada' => false
     ),
     
     // Formularios
@@ -77,8 +81,11 @@ $map = array(
         'controller' => 'ControladorFormularios',
         'action' => 'formulario',
         'privada' => false
-    ),
-    'respuesta_envio' => array(
+    ),'formulario_recurso' => array(
+        'controller' => 'ControladorFormularios',
+        'action' => 'formulario_recurso',
+        'privada' => false
+    ),'respuesta_envio' => array(
         'controller' => 'ControladorFormularios',
         'action' => 'respuesta_envio',
         'privada' => false

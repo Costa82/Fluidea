@@ -447,7 +447,6 @@ a.boton {
     padding: 0 15px;
     margin-top: 15px;
     vertical-align: middle;
-    background: #58DEEB;
     border: 0;
     font-weight: 300;
     line-height: 50px;
@@ -508,6 +507,28 @@ a.boton {
 	margin: 0 auto;
 }
 
+.ventana_formulario_recurso {
+	background-color: #FF4297;
+	border-radius: 5px;
+	padding: 50px 20px;	
+	width: 80%;
+	max-width: 800px;
+	position: absolute;
+	z-index: 9999999999999;
+	border-radius: 5px;
+	border: black 2px solid;
+	-webkit-box-shadow: 3px 6px 20px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 3px 6px 20px 0px rgba(0, 0, 0, 0.75);
+	color: black;
+	display: none;
+}
+
+.cerrar_recurso_gratuito {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
 ::-webkit-input-placeholder {
 	font-family: Quicksand;
 }
@@ -533,7 +554,7 @@ textarea {
 }
 
 input {
-	width: 45%;
+	width: 47%;
 	height: 30px;
 	margin-bottom: 10px;
 	border: 2px solid grey;
@@ -636,6 +657,9 @@ footer h3 {
 
 /* Para resoluciones a partir de 500px */
 @media only screen and (min-width: 500px) {
+	input {
+		width: 48%;
+	}
 	textarea {
 		width: 97%;
 	}
@@ -675,9 +699,6 @@ footer h3 {
 @media only screen and (min-width: 1000px) {
 	textarea {
 		width: 99%;
-	}
-	input {
-		width: 47%;
 	}
 	img.logo {
 		height: 100px;

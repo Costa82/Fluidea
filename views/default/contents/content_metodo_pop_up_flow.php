@@ -117,7 +117,7 @@
 
 		<div class="contenedor_boton texto_centrado">
 			<p>
-				<a class="boton letra_indie" href="servicios">Bea, ¡no puedo perder el Flow!</a>
+				<a class="boton azul letra_indie" href="servicios">Bea, ¡no puedo perder el Flow!</a>
 			</p>
 		</div>
 

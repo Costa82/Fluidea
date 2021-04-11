@@ -110,7 +110,7 @@
 
 		<div class="contenedor_boton texto_centrado">
 			<p>
-				<a class="boton letra_indie" href="servicios">Quiero que me ayudes, Bea</a>
+				<a class="boton azul letra_indie" href="servicios">Quiero que me ayudes, Bea</a>
 			</p>
 		</div>
 

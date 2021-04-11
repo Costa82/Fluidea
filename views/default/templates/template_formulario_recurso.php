@@ -1,9 +1,10 @@
 <!-- Plantilla Formulario contacto -->
-<div class="contenedor_texto">
 
 	<div class="formulario">
+	
+		<i class="fa fa-times cerrar_recurso_gratuito"></i>
 
-		<form action="formulario" method="post" class="formulario"
+		<form action="formulario_recurso" method="post" class="formulario"
 			onSubmit="return validar();">
 			<div>
 				<input type="text" name="nombre" class="izquierda"
@@ -12,12 +13,7 @@
 
 			<div>
 				<input type="email" name="mail" class="derecha" required="required"
-					placeholder="¿Cuál es tu email?" />
-			</div>
-
-			<div class="consulta">
-				<textarea name="consulta" rows="10" cols="50" required="required"
-					placeholder="Cuéntame, ¿qué puedo hacer por ti? :)"></textarea>
+					placeholder="¿Cuál es tu mejor email?" />
 			</div>
 
 			<div class="condiciones">
@@ -27,15 +23,6 @@
 						class="amarillo1" href="politica-privacidad-y-proteccion-datos"
 						title="Aviso Legal"><i>Política de privacidad y Protección de
 								datos</i> </a> </label>
-				</p>
-			</div>
-
-			<div class="condiciones">
-				<p>
-					<input type="checkbox" name="newsletter" id="newsletter"
-						class="condiciones" value="1"><label>Acepto recibir la información
-						comercial que FLUIDEA considere oportuno enviarme por correo
-						electrónico. (Es posible darse de baja en cualquier momento)</label>
 				</p>
 			</div>
 
@@ -55,13 +42,13 @@
 
 			<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 
-			<div class="texto_centrado ">
-				<button type="submit" name="enviar" class="boton azul">
-					<p class="letra_indie">Enviar</p>
+			<div class="texto_centrado">
+				<button type="submit" name="enviar" class="boton amarillo">
+					<p class="letra_indie">¡Envíame el recurso gratis!</p>
 				</button>
 			</div>
+			
 		</form>
 
 	</div>
 
-</div>

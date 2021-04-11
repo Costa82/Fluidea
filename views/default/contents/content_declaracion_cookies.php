@@ -7,7 +7,7 @@
 	<div class="texto">
 
 		<script id="CookieDeclaration"
-			src="https://consent.cookiebot.com/02242fa2-d798-4493-bc01-ef4d666afa09/cd.js"
+			src="https://consent.cookiebot.com/dbca5b10-a523-48f1-a962-c8c8871393a7/cd.js"
 			type="text/javascript" async></script>
 
 	</div>

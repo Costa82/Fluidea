@@ -216,5 +216,19 @@ class ControladorPaginas {
 		}
 		require './views/newsletter.php';
 	}
+	
+	/**
+	 * Metodo que llama a la accion recurso
+	 */
+	public function recurso() {
+		$_SESSION['nombre_pagina'] = 'Recurso';
+		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
+			$params['error'] = $_SESSION['error'];
+			$_SESSION['error'] = 0;
+		} else {
+			$params['error'] = 0;
+		}
+		require './views/recurso.php';
+	}
 
 }

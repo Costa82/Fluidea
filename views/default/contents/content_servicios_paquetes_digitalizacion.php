@@ -105,7 +105,7 @@
 
 		<div class="contenedor_boton texto_centrado">
 
-			<a class="boton letra_indie"
+			<a class="boton azul letra_indie"
 				onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">Quiero
 				que me ayudes, Bea</a>
 

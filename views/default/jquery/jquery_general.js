@@ -2,22 +2,21 @@ $(document).ready(function() {
 
 	// popUps
     $(window).resize(function(){
-    	var aviso = $('.aviso');
+    	var aviso = $('.ventana_formulario_recurso');
         aviso.css({ 
-             'left': ($(window).width() / 2 - $(aviso).width() / 2) + 'px', 
+             'left': ($(window).width() / 2 - $(aviso).width() / 2) - 20 + 'px', 
              'top': ($(window).height() / 2 - $(aviso).height() / 2) + ($(window).scrollTop()) + 'px'
              });
     });
-        
-    $(window).resize();
-
-    $('.aviso').click(function(e){
+    
+    $('.recurso_gratuito').click(function(e){
+    	$(window).resize();
     	e.preventDefault();
-        if ( $('.aviso').is(":visible") ) {
-        	$('.aviso').fadeOut('slow');
-        }else {
-            $('.aviso').fadeIn('slow');
-        }
+        $('.ventana_formulario_recurso').fadeIn('slow');
+    });
+    
+    $('.cerrar_recurso_gratuito').click(function(e){
+    	$('.ventana_formulario_recurso').fadeOut('slow');
     });
     
     // leer más

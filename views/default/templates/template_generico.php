@@ -50,14 +50,14 @@ else
 
 <!-- Inicio Recaptcha -->
 <script
-	src='https://www.google.com/recaptcha/api.js?render=6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3'> 
-	//6LdPFd4ZAAAAAF2swsyoEk36ow12TcHZ6q6e7FeL local
-	//6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3 producción
+	src='https://www.google.com/recaptcha/api.js?render=6LeZYaUaAAAAAKmOGIfLSFGo7We4TrIDUQWvMcOH'> 
+	//6LeZYaUaAAAAAKmOGIfLSFGo7We4TrIDUQWvMcOH local
+	//6Ld0YqUaAAAAAE8bIzEdbqnkxxAlJB8C609rz53B producción
 </script>
 
 <script>
 	grecaptcha.ready(function() {
-	grecaptcha.execute('6LcfFd4ZAAAAABL2nokeKoixiP6QYgWAtp0Q10J3', {action: 'newsletter'})
+	grecaptcha.execute('6LeZYaUaAAAAAKmOGIfLSFGo7We4TrIDUQWvMcOH', {action: 'newsletter'})
 	.then(function(token) {
 	var recaptchaResponse = document.getElementById('recaptchaResponse');
 	recaptchaResponse.value = token;
@@ -96,9 +96,8 @@ else
 	<!-- Cookiebot -->
 	<?php 
 	if (isset($_SESSION['nombre_pagina']) && $_SESSION['nombre_pagina'] == 'Fluidea') {
-		echo "<!-- <script id='Cookiebot' src='https://consent.cookiebot.com/uc.js'
-			data-cbid='02242fa2-d798-4493-bc01-ef4d666afa09'
-			data-blockingmode='auto' type='text/javascript'></script> -->";
+		echo "<script id='Cookiebot' src='https://consent.cookiebot.com/uc.js' data-cbid='dbca5b10-a523-48f1-a962-c8c8871393a7' 
+		data-blockingmode='auto' type='text/javascript'></script>";
 	}
 	?>
 	
@@ -150,7 +149,8 @@ else
 	<!-- Footer -->
 	<?php 
 		if (isset($_SESSION['nombre_pagina']) && ($_SESSION['nombre_pagina'] == 'Envio' ||
-		$_SESSION['nombre_pagina'] == 'Página de Error 404' || $_SESSION['nombre_pagina'] == 'Newsletter'))
+		$_SESSION['nombre_pagina'] == 'Página de Error 404' || $_SESSION['nombre_pagina'] == 'Newsletter'
+		|| $_SESSION['nombre_pagina'] == 'Recurso'))
 			echo "<footer class='fixed'>";
 		else
 			echo "<footer>";

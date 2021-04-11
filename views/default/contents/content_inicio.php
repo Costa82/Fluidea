@@ -69,7 +69,7 @@
 
 		<div class="contenedor_boton texto_centrado">
 
-			<a class="boton letra_indie"
+			<a class="boton azul letra_indie"
 				onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">Quiero
 				mi cita gratuita con Bea</a>
 			
@@ -115,6 +115,22 @@
 
 	</div>
 
+</div>
+
+<div class="contenedor_texto">
+
+	<div class="contenedor_boton texto_centrado recurso_gratuito">
+
+		<a class="boton rosa letra_indie" href="">¡Quiero mi recurso gratuito!</a>
+			
+	</div>
+	
+</div>
+
+<div class="ventana_formulario_recurso">
+	
+	<?php include_once("./views/default/templates/template_formulario_recurso.php");?>
+		
 </div>
 
 <div class="contenedor_texto">
@@ -207,7 +223,7 @@
 		</p>
 
 		<div class="contenedor_boton texto_centrado">
-			<p><a class="boton letra_indie" href="servicios">¡Bea, me apunto!</a></p>
+			<p><a class="boton azul letra_indie" href="servicios">¡Bea, me apunto!</a></p>
 		</div>
 		
 	</div>
