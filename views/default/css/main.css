@@ -35,7 +35,6 @@ p {
 
 a, a:hover, a:focus {
 	text-decoration: none;
-	color: black;
 }
 
 ul {
@@ -144,9 +143,25 @@ a.amarillo1:hover {
 	background-color: #f7c300;
 }
 
+.letra_azul {
+	color: #58DEEB;
+}
+
+.letra_rosa {
+	color: #FF4297;
+}
+
+.letra_amarilla {
+	color: #f7c300;
+}
+
 .letra_indie {
 	font-family: 'WaitingfortheSunrise-Regular', cursive;
 	font-size: 22px;
+}
+
+.letra_blanca {
+	color: white;
 }
 
 /* HEADER
@@ -317,7 +332,6 @@ nav>ul>li>ul#lista_movil li {
 	border-radius: 10px;
 	margin-top: -170px;
 	transition: all .5s ease-in-out;
-	opacity: 0.9;
 }
 
 .contenedor_superior_inicio {
@@ -325,7 +339,6 @@ nav>ul>li>ul#lista_movil li {
 	border-radius: 10px;
 	margin-top: -110px;
 	transition: all .5s ease-in-out;
-	opacity: 0.9;
 }
 
 .contenedor_superior:hover, .contenedor_superior_inicio:hover {
@@ -333,15 +346,15 @@ nav>ul>li>ul#lista_movil li {
 	opacity: 1;
 }
 
-ul.lista_amarilla, ul.lista_negra, ul.lista_puntos, ul.lista_rosa {
+ul.lista_amarilla, ul.lista_negra, ul.lista_blanca, ul.lista_puntos, ul.lista_rosa {
 	padding-left: 25px;
 }
 
-ul.lista_amarilla li, ul.lista_negra li, ul.lista_puntos li, ul.lista_rosa li {
+ul.lista_amarilla li, ul.lista_negra li, ul.lista_blanca li, ul.lista_puntos li, ul.lista_rosa li {
 	list-style: none;
 }
 
-ul.lista_amarilla li::before, ul.lista_negra li::before, ul.lista_puntos li::before, ul.lista_rosa li::before {
+ul.lista_amarilla li::before, ul.lista_negra li::before, ul.lista_blanca li::before, ul.lista_puntos li::before, ul.lista_rosa li::before {
 	content: '';
 	display: inline-block;
 	height: 20px;
@@ -359,6 +372,11 @@ ul.lista_amarilla li::before {
 ul.lista_negra li::before {
 	opacity: 0.6;
 	background-image: url("../img/recursos graficos/Borrón negro fondo transparente.png");
+}
+
+ul.lista_blanca li::before {
+	opacity: 0.6;
+	background-image: url("../img/recursos graficos/Borrón blanco fondo transparente.png");
 }
 
 ul.lista_puntos li::before {
@@ -469,7 +487,6 @@ a.boton {
 }
 
 .bloque {
-	color: white;
 	margin: 10px 20px;	
 	padding: 20px;
 	border-radius: 10px;

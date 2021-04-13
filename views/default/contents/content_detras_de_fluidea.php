@@ -1,6 +1,6 @@
 <!-- Contenido de la pagina de Detrás de Fluidea -->
 
-<div class="contenedor_texto contenedor_superior rosa">
+<div class="contenedor_texto contenedor_superior rosa letra_blanca">
 
 	<h1 class="letra_indie">DETRÁS DE FLUIDEA</h1>
 
@@ -149,7 +149,7 @@
 		<div class="contenedor_bloques contenedor_flex">
 
 			<div class="bloque rosa flex">
-				<a onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
+				<a class="letra_blanca" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
 					<h3 class="letra_indie">¡RESÉRVALA AHORA!</h3>
 					<p>Y da el primer paso seguro hacia el lanzamiento de tu proyecto</p>
 					<h3 class="letra_indie">¡CON FLOW!</h3>

@@ -1,6 +1,6 @@
 <!-- Contenido de la pagina de Detrás de Fluidea -->
 
-<div class="contenedor_texto enmarcado amarillo">
+<div class="contenedor_texto enmarcado amarillo letra_blanca">
 
 	<h1 class="letra_indie">¡BIENVENIDO AL MUNDO DIGITAL!</h1>
 
@@ -8,21 +8,21 @@
 
 		<p class="texto_centrado">¡Mira a ver cuál es la que más te cuadra!</p>
 
-		<ul class="lista_negra">
+		<ul class="lista_blanca">
 
 			<li><p>
-					<a href="#basico"><strong>BIENVENIDO AL MUNDO DIGITAL BÁSICO</strong>
+					<a class="letra_blanca" href="#basico"><strong>BIENVENIDO AL MUNDO DIGITAL BÁSICO</strong>
 					</a>
 				</p></li>
 
 			<li><p>
-					<a href="#medium"><strong>BIENVENIDO AL MUNDO DIGITAL MEDIUM</strong>
+					<a class="letra_blanca" href="#medium"><strong>BIENVENIDO AL MUNDO DIGITAL MEDIUM</strong>
 					</a>
 				</p>
 			</li>
 
 			<li><p>
-					<a href="#premium"><strong>BIENVENIDO AL MUNDO DITAL PREMIUM</strong>
+					<a class="letra_blanca" href="#premium"><strong>BIENVENIDO AL MUNDO DITAL PREMIUM</strong>
 					</a>
 				</p>
 			</li>
@@ -123,12 +123,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">BIENVENIDO AL MUNDO DIGITAL BÁSICO</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>89€</strong>
 		</p>
 
@@ -138,28 +138,32 @@
 
 <div class="contenedor_texto">
 
-	<p>
-		<strong class="letra_indie">Qué incluye:</strong>
-	</p>
+	<div class="texto">
 
-	<ul class="lista_amarilla">
-		<li><p>Imagen corporativa básica (logo o imagologo versión básica)</p>
-		</li>
-		<li><p>Creación del perfil digital básico:</p>
-			<ul class="lista_amarilla lista_secundaria">
-
-				<li><p>2 RRSS (a elegir)</p>
-				</li>
-
-				<li><p>Darse de alta en Google my business</p>
-				</li>
-
-				<li><p>Crearemos juntxs la primera publicación en los tres perfiles,
-						para que veas cómo se hace y poder hacerlo tú mismx más adelante.</p>
-				</li>
-			</ul>
-		</li>
-	</ul>
+		<p>
+			<strong class="letra_indie">Qué incluye:</strong>
+		</p>
+	
+		<ul class="lista_amarilla">
+			<li><p>Imagen corporativa básica (logo o imagologo versión básica)</p>
+			</li>
+			<li><p>Creación del perfil digital básico:</p>
+				<ul class="lista_amarilla lista_secundaria">
+	
+					<li><p>2 RRSS (a elegir)</p>
+					</li>
+	
+					<li><p>Darse de alta en Google my business</p>
+					</li>
+	
+					<li><p>Crearemos juntxs la primera publicación en los tres perfiles,
+							para que veas cómo se hace y poder hacerlo tú mismx más adelante.</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</div>
 
 </div>
 
@@ -171,12 +175,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">BIENVENIDO AL MUNDO DIGITAL MEDIUM</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>199€</strong>
 		</p>
 
@@ -186,37 +190,41 @@
 
 <div class="contenedor_texto">
 
-	<p>
-		<strong class="letra_indie">Qué incluye:</strong>
-	</p>
+	<div class="texto">
 
-	<ul class="lista_amarilla">
-		<li><p>Imagen corporativa básica (logo o imagologo versión básica y en
-				negativo o sobre otros colores diferentes a los corporativos;
-				incluye dossier con paleta de colores corporativa y tipografías a
-				utilizar)</p>
-		</li>
-		<li><p>Creación del perfil digital medium:</p>
-			<ul class="lista_amarilla lista_secundaria">
-
-				<li><p>3 RRSS (a elegir)</p>
-				</li>
-
-				<li><p>Primera publicación en las tres RRSS</p>
-				</li>
-
-				<li><p>Darse de alta en Google my Business</p>
-				</li>
-
-				<li><p>Primera publicación en Google my Business</p>
-				</li>
-
-				<li><p>Creación del primer material físico promocional de tu negocio
-						(tarjeta de visita). No incluye la impresión de ese material.</p>
-				</li>
-			</ul>
-		</li>
-	</ul>
+		<p>
+			<strong class="letra_indie">Qué incluye:</strong>
+		</p>
+	
+		<ul class="lista_amarilla">
+			<li><p>Imagen corporativa básica (logo o imagologo versión básica y en
+					negativo o sobre otros colores diferentes a los corporativos;
+					incluye dossier con paleta de colores corporativa y tipografías a
+					utilizar)</p>
+			</li>
+			<li><p>Creación del perfil digital medium:</p>
+				<ul class="lista_amarilla lista_secundaria">
+	
+					<li><p>3 RRSS (a elegir)</p>
+					</li>
+	
+					<li><p>Primera publicación en las tres RRSS</p>
+					</li>
+	
+					<li><p>Darse de alta en Google my Business</p>
+					</li>
+	
+					<li><p>Primera publicación en Google my Business</p>
+					</li>
+	
+					<li><p>Creación del primer material físico promocional de tu negocio
+							(tarjeta de visita). No incluye la impresión de ese material.</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</div>
 
 </div>
 
@@ -228,12 +236,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">BIENVENIDO AL MUNDO DITAL PREMIUM</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>399€</strong>
 		</p>
 
@@ -243,41 +251,45 @@
 
 <div class="contenedor_texto">
 
-	<p>
-		<strong class="letra_indie">Qué incluye:</strong>
-	</p>
+	<div class="texto">
 
-	<ul class="lista_amarilla">
-		<li><p>Imagen corporativa básica (logo e imagologo, versión normal y
-				en negativo o sobre otros colores diferentes a los corporativos;
-				incluye dossier con paleta de colores corporativa y tipografías a
-				utilizar)</p>
-		</li>
-		<li><p>Creación del perfil digital premium:</p>
-			<ul class="lista_amarilla lista_secundaria">
-
-				<li><p>3 RRSS (a elegir)</p>
-				</li>
-
-				<li><p>Primera publicación en las tres RRSS</p>
-				</li>
-
-				<li><p>Darse de alta en Google my Business</p>
-				</li>
-
-				<li><p>Primera publicación en Google my Business</p>
-				</li>
-
-				<li><p>Curso express de publicaciones y manejo de Google my Business
-						(para que puedas hacerlo tú mismx)</p>
-				</li>
-
-				<li><p>Creación de los dos primeros materiales físicos promocionales
-						de tu negocio (incluye tarjeta de visita, flyer y folleto). No
-						incluye la impresión de ese material.</p>
-				</li>
-			</ul>
-		</li>
-	</ul>
+		<p>
+			<strong class="letra_indie">Qué incluye:</strong>
+		</p>
+	
+		<ul class="lista_amarilla">
+			<li><p>Imagen corporativa básica (logo e imagologo, versión normal y
+					en negativo o sobre otros colores diferentes a los corporativos;
+					incluye dossier con paleta de colores corporativa y tipografías a
+					utilizar)</p>
+			</li>
+			<li><p>Creación del perfil digital premium:</p>
+				<ul class="lista_amarilla lista_secundaria">
+	
+					<li><p>3 RRSS (a elegir)</p>
+					</li>
+	
+					<li><p>Primera publicación en las tres RRSS</p>
+					</li>
+	
+					<li><p>Darse de alta en Google my Business</p>
+					</li>
+	
+					<li><p>Primera publicación en Google my Business</p>
+					</li>
+	
+					<li><p>Curso express de publicaciones y manejo de Google my Business
+							(para que puedas hacerlo tú mismx)</p>
+					</li>
+	
+					<li><p>Creación de los dos primeros materiales físicos promocionales
+							de tu negocio (incluye tarjeta de visita, flyer y folleto). No
+							incluye la impresión de ese material.</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</div>
 
 </div>

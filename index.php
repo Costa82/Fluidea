@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once 'core/Connection.php';
+require_once './config/Utils.php';
 
 // Incluimos automaticamente el model que sea necesario
 function my_autoloader($class)
@@ -108,7 +109,7 @@ if (isset($_GET['action'])) {
 
 	$_SESSION['id'] = null;
 	if (isset($_GET['id'])) {
-		$_SESSION['id'] = $_GET['id'];
+		$_SESSION['id'] = Utils::decodifica($_GET['id']);
 	}
     
     // Hacemos un replace para las urls amigables con '-'

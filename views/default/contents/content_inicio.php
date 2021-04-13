@@ -9,23 +9,24 @@
 <div class="contenedor_texto contenedor_superior_inicio rosa">
 
 	<div class="texto">
-	
-		<p class="letra_indie">
-			<strong>En un mundo que requiere cambios para afrontar el futuro más
-				inmediato, ayudo a personas que tienen ideas para que disfruten del
-				placer de llevarlas a cabo de manera más rápida y más segura.</strong>
-		</p>
-	
+
+		<p class="letra_indie letra_blanca">En un mundo que requiere cambios
+			para afrontar el futuro más inmediato, ayudo a personas que tienen
+			ideas para que disfruten del placer de llevarlas a cabo de manera más
+			rápida y más segura.</p>
+
 	</div>
-	
+
 </div>
 
 <div class="contenedor_texto contenedor_flex">
 
 	<div class="texto texto_flex">
 
-		<p>Fluidea es un espacio en el que te ofrezco <span class="letra_indie">TIEMPO</span> para que tus
-			IDEAS FLUYAN.</p>
+		<p>
+			Fluidea es un espacio en el que te ofrezco <span class="letra_indie">TIEMPO</span>
+			para que tus IDEAS FLUYAN.
+		</p>
 
 		<p>Si has llegado hasta este lugar tan especial que he creado para ti,
 			es que eres emprendedor/a y te va a sonar todo esto que te cuento:</p>
@@ -44,9 +45,10 @@
 	</div>
 
 	<div class="imagen_flex">
-	
-		<img class="mediano" src="./views/default/img/inicio/2._pagina_inicio.jpg">
-	
+
+		<img class="mediano"
+			src="./views/default/img/inicio/2._pagina_inicio.jpg">
+
 	</div>
 
 </div>
@@ -72,7 +74,7 @@
 			<a class="boton azul letra_indie"
 				onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">Quiero
 				mi cita gratuita con Bea</a>
-			
+
 		</div>
 
 	</div>
@@ -87,17 +89,18 @@
 			<strong>¿Y, quién soy yo, y por qué he creado este espacio en el que
 				puedas Fluir mejor y más segurx?</strong>
 		</p>
-	
+
 	</div>
-	
+
 </div>
 
 <div class="contenedor_texto contenedor_flex">
 
 	<div class="imagen_flex">
-	
-		<img class="pequeno" src="./views/default/img/inicio/4._pagina_inicio.png">
-	
+
+		<img class="pequeno"
+			src="./views/default/img/inicio/4._pagina_inicio.png">
+
 	</div>
 
 	<div class="texto texto_flex">
@@ -122,15 +125,15 @@
 	<div class="contenedor_boton texto_centrado recurso_gratuito">
 
 		<a class="boton rosa letra_indie" href="">¡Quiero mi recurso gratuito!</a>
-			
+
 	</div>
-	
+
 </div>
 
 <div class="ventana_formulario_recurso">
-	
-	<?php include_once("./views/default/templates/template_formulario_recurso.php");?>
-		
+
+<?php include_once("./views/default/templates/template_formulario_recurso.php");?>
+
 </div>
 
 <div class="contenedor_texto">
@@ -144,21 +147,19 @@
 <div class="contenedor_texto contenedor_flex">
 
 	<div class="bloque azul flex">
-		<a
-		onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
+		<a class="letra_blanca"
+			onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
 			<h3 class="letra_indie">ASESORAMIENTO</h3>
 			<p>Mentorías de situación de proyecto</p>
 			<p>¿qué necesitas?</p>
-			<p>(La primera de media hora es gratuita)</p>
-		</a>
+			<p>(La primera de media hora es gratuita)</p> </a>
 	</div>
 	<div class="bloque rosa flex">
-		<a href="servicios">
+		<a class="letra_blanca" href="servicios">
 			<h3 class="letra_indie">ACOMPAÑAMIENTO</h3>
 			<p>Tercerización de todo aquello que:</p>
 			<p>No sabes hacer</p>
-			<p>O no tienes tiempo para hacerlo</p>
-		</a>
+			<p>O no tienes tiempo para hacerlo</p> </a>
 	</div>
 
 </div>
@@ -201,8 +202,9 @@
 		</p>
 
 		<p class="texto_centrado">
-			<strong>Con mi método <a class="amarillo1 letra_indie" href="metodo_pop_up_flow">Pop Up Flow</a>,
-				aparezco, hago que fluyas, y me voy.</strong>
+			<strong>Con mi método <a class="amarillo1 letra_indie"
+				href="metodo_pop_up_flow">Pop Up Flow</a>, aparezco, hago que
+				fluyas, y me voy.</strong>
 		</p>
 
 		<p>Como socio único, puedo ocuparme de todo lo que te chirría, todo lo
@@ -226,9 +228,11 @@
 		</p>
 
 		<div class="contenedor_boton texto_centrado">
-			<p><a class="boton azul letra_indie" href="servicios">¡Bea, me apunto!</a></p>
+			<p>
+				<a class="boton azul letra_indie" href="servicios">¡Bea, me apunto!</a>
+			</p>
 		</div>
-		
+
 	</div>
 
 </div>
@@ -237,8 +241,11 @@
 
 	<div class="texto">
 
-		<p>Si antes de apuntarte, quieres saber más sobre mi Método Pop Up
-			FLow, <a class="amarillo1" href="metodo_pop_up_flow">pincha aquí</a> y te lo explico "todo, todo y todo"</p>
+		<p>
+			Si antes de apuntarte, quieres saber más sobre mi Método Pop Up FLow,
+			<a class="amarillo1" href="metodo_pop_up_flow">pincha aquí</a> y te
+			lo explico "todo, todo y todo"
+		</p>
 
 	</div>
 

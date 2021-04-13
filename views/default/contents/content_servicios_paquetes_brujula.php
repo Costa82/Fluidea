@@ -1,6 +1,6 @@
 <!-- Contenido de la pagina de Detrás de Fluidea -->
 
-<div class="contenedor_texto enmarcado amarillo">
+<div class="contenedor_texto enmarcado rosa letra_blanca">
 
 	<h1 class="letra_indie">SERVICIOS PAQUETES BRÚJULA</h1>
 
@@ -16,18 +16,18 @@
 
 		<p class="texto_centrado">¡Mira a ver cuál es la que más te cuadra!</p>
 
-		<ul class="lista_negra">
-			<a href="#revisamos">
+		<ul class="lista_blanca">
+			<a class="letra_blanca" href="#revisamos">
 				<li><p>
 						<strong>¡REVISAMOS JUNTOS TU B.P.!</strong>
 					</p></li> </a>
-			<a href="#creamos">
+			<a class="letra_blanca" href="#creamos">
 				<li><p>
 						<strong>¡CREAMOS JUNTOS TU B.P. PROFESIONAL!</strong> (Incluye
 						Resumen Ejecutivo)
 					</p>
 			</li> </a>
-			<a href="#creamos_super">
+			<a class="letra_blanca" href="#creamos_super">
 				<li><p>
 						<strong>¡CREAMOS JUNTOS TU SUPER B.P.!</strong>
 					</p>
@@ -109,12 +109,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">¡REVISAMOS JUNTOS TU B.P.!</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>69€</strong>
 		</p>
 
@@ -150,12 +150,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">¡CREAMOS JUNTOS TU B.P. PROFESIONAL!</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>369€</strong>
 		</p>
 
@@ -210,12 +210,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">¡CREAMOS JUNTOS TU SUPER B.P.!</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>520€</strong>
 		</p>
 

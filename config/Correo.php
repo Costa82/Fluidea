@@ -1,5 +1,6 @@
 <?php
 include ("phpmailer.php");
+require_once './config/Utils.php';
 
 class Correo {
 
@@ -22,6 +23,7 @@ class Correo {
 	 * @param  $nombre
 	 * @param  $consulta
 	 * @param  $newsletter
+	 * @param  $id
 	 * @return string
 	 */
 	public function enviarMailsConsulta($mail, $nombre, $consulta, $newsletter, $id) {
@@ -72,8 +74,9 @@ class Correo {
 							<p>¿Empezamos?</p>";
 
 		if ($newsletter == "SI" && $id != null) {
+			$codificado = Utils::codifica($id);
 			$contenidoHTML .= "<p>¡¡Sólo te queda un paso más para recibir nuestra Newsletter!! Haz click en este
-        	<a href='https://www.fluidea.es/newsletter+".$id."'>enlace</a> para terminar tu registro.</p>";
+        	<a href='https://www.fluidea.es/newsletter+".$codificado."'>enlace</a> para terminar tu registro.</p>";
 		}
 
 		$contenidoHTML .= "<p>¡Un saludo!</p>
@@ -128,7 +131,7 @@ class Correo {
 	}
 	
 	/**
-	 * enviarMailsConsulta
+	 * enviarMailsConfirmacionFichero
 	 * Envía el mail de contacto
 	 *
 	 * @param  $mail
@@ -184,8 +187,9 @@ class Correo {
 							<p>¿Empezamos?</p>";
 
 		if ($id != null) {
+			$codificado = Utils::codifica($id);
 			$contenidoHTML .= "<p>¡¡Sólo te queda un paso más para recibir tu recurso gratuito y registrate en nuestra Newsletter!! Haz click en este
-        	<a href='https://www.fluidea.es/recurso+".$id."'>enlace</a> para recibirlo.</p>";
+        	<a href='https://www.fluidea.es/recurso+".$codificado."'>enlace</a> para recibirlo.</p>";
 		}
 
 		$contenidoHTML .= "<p>¡Un saludo!</p>
@@ -347,7 +351,6 @@ class Correo {
 	 *
 	 * @param  $mail
 	 * @param  $nombre
-	 * @param  $telefono
 	 * @param  $consulta
 	 */
 	public function enviarCorreoInformativoConsulta($mail, $nombre, $consulta) {
@@ -611,6 +614,8 @@ class Correo {
 	public function enviarMailsNewsletter($mail, $nombre, $id) {
 		 
 		$imagen = 'https://i.ibb.co/7zpwCdR/logos-versiones-Mesa-de-trabajo-1-copia-4.png';
+		
+		$codificado = Utils::codifica($id);
 
 		$smtp = new PHPMailer();
 
@@ -651,7 +656,7 @@ class Correo {
 		$contenidoHTML .= "</head><body>";
 		$contenidoHTML .= "<h2 style='color: #f7c300'>¡Hola " . $nombre . "!</h2>";
 		$contenidoHTML .= "<p>Muchas gracias por apuntarte a la newsletter, en breve recibirás noticias nuestras.</p>
-						   <p>Puedes darte de baja y dejar de recibir nuestra newsletter en cualquier momento pinchando en este <a href='https://www.fluidea.es/baja+".$id."'>enlace</a></p>
+						   <p>Puedes darte de baja y dejar de recibir nuestra newsletter en cualquier momento pinchando en este <a href='https://www.fluidea.es/baja+".$codificado."'>enlace</a></p>
         				   <p>Un saludo!!</p>
                            <p><strong>Teléfono:</strong> 611 41 29 17</p>
                            <p><strong>Correo:</strong> hola@fluidea.es</p>
@@ -714,6 +719,8 @@ class Correo {
 	public function enviarMailsConFichero($mail, $nombre, $id) {
 		 
 		$imagen = 'https://i.ibb.co/7zpwCdR/logos-versiones-Mesa-de-trabajo-1-copia-4.png';
+		
+		$codificado = Utils::codifica($id);
 
 		$smtp = new PHPMailer();
 
@@ -754,7 +761,7 @@ class Correo {
 		$contenidoHTML .= "</head><body>";
 		$contenidoHTML .= "<h2 style='color: #f7c300'>¡Hola " . $nombre . "!</h2>";
 		$contenidoHTML .= "<p>¡Aquí tienes tu recurso gratuíto!</p>
-						   <p>Puedes darte de baja y dejar de recibir nuestra newsletter en cualquier momento pinchando en este <a href='https://www.fluidea.es/baja+".$id."'>enlace</a></p>
+						   <p>Puedes darte de baja y dejar de recibir nuestra newsletter en cualquier momento pinchando en este <a href='https://www.fluidea.es/baja+".$codificado."'>enlace</a></p>
         				   <p>Un saludo!!</p>
                            <p><strong>Teléfono:</strong> 611 41 29 17</p>
                            <p><strong>Correo:</strong> hola@fluidea.es</p>

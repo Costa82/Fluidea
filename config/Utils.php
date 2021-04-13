@@ -31,7 +31,7 @@ class Utils
 	 * @param $cadena
 	 * @return String
 	 */
-	function eliminar_acentos($cadena){
+	public static function eliminar_acentos($cadena){
 
 		$cadena = utf8_encode($cadena);
 		
@@ -81,7 +81,7 @@ class Utils
 		return utf8_decode($cadena);
 	}
 	
-		/**
+	/**
 	 * Guardamos la imagen en la carpeta de destino
 	 * @param $carpetaDestino
 	 * @param $archivo
@@ -124,6 +124,32 @@ class Utils
 		}
 		
 		return $guardado;
+	}
+	
+	/**
+	 * Función que se utilizará para codificar una cadena
+	 *
+	 * @param $id
+	 * @return String
+	 */
+	public static function codifica($id)
+	{
+		$cadenaToHexa = bin2hex($id + 2749);
+		
+		return $cadenaToHexa;
+	}
+	
+	/**
+	 * Función que se utilizará para decodificar una cadena
+	 *
+	 * @param $id
+	 * @return String
+	 */
+	public static function decodifica($hexa)
+	{
+		$hexaToCadena = hex2bin($hexa);
+		
+		return $hexaToCadena - 2749;
 	}
 
 }

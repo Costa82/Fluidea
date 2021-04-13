@@ -1,6 +1,6 @@
 <!-- Contenido de la pagina de Servicios -->
 
-<div class="contenedor_texto enmarcado amarillo">
+<div class="contenedor_texto enmarcado azul letra_blanca">
 
 	<h1 class="letra_indie">SERVICIOS PAQUETES DESCONGESTIÓN</h1>
 
@@ -8,42 +8,42 @@
 
 		<p class="texto_centrado">¡Mira a ver cuál es la que más te cuadra!</p>
 
-		<ul class="lista_negra">
+		<ul class="lista_blanca">
 
 			<li><p>
-					<a href="#empresario"><strong>¡YA SOY EMPRESARIO!</strong> </a>
+					<a class="letra_blanca" href="#empresario"><strong>¡YA SOY EMPRESARIO!</strong> </a>
 				</p></li>
 
 			<li><p>
-					<a href="#subvencionate"><strong>¡SUBVENCIÓNATE!</strong> </a>
+					<a class="letra_blanca" href="#subvencionate"><strong>¡SUBVENCIÓNATE!</strong> </a>
 				</p>
 			</li>
 
 			<li><p>
-					<a href="#proveete"><strong>¡PROVÉETE!</strong> </a>
+					<a class="letra_blanca" href="#proveete"><strong>¡PROVÉETE!</strong> </a>
 				</p>
 				<ul class="lista_puntos lista_secundaria">
 
 					<li><p>
-							<a href="#basico"><strong>PROVEE TU NEGOCIO. PAQUETE BÁSICO</strong>
+							<a class="letra_blanca" href="#basico"><strong>PROVEE TU NEGOCIO. PAQUETE BÁSICO</strong>
 							</a>
 						</p>
 					</li>
 
 					<li><p>
-							<a href="#medium"><strong>PROVEE TU NEGOCIO. PAQUETE MEDIUM</strong>
+							<a class="letra_blanca" href="#medium"><strong>PROVEE TU NEGOCIO. PAQUETE MEDIUM</strong>
 							</a>
 						</p>
 					</li>
 
 					<li><p>
-							<a href="#premium"><strong>PROVEE TU NEGOCIO PAQUETE PREMIUM</strong>
+							<a class="letra_blanca" href="#premium"><strong>PROVEE TU NEGOCIO PAQUETE PREMIUM</strong>
 							</a>
 						</p>
 					</li>
 
 					<li><p>
-							<a href="#gerundio"><strong>"PROVEYENDO QUE ES GERUNDIO"</strong>
+							<a class="letra_blanca" href="#gerundio"><strong>"PROVEYENDO QUE ES GERUNDIO"</strong>
 							</a>
 						</p>
 					</li>
@@ -51,18 +51,18 @@
 			</li>
 
 			<li><p>
-					<a href="#obligaciones"><strong>OBLIGACIONES NORMATIVAS ¡UP TO
+					<a class="letra_blanca" href="#obligaciones"><strong>OBLIGACIONES NORMATIVAS ¡UP TO
 							DATE!</strong> </a>
 				</p>
 			</li>
 
 			<li><p>
-					<a href="#licenciate"><strong>¡LICÉNCIATE!</strong> </a>
+					<a class="letra_blanca" href="#licenciate"><strong>¡LICÉNCIATE!</strong> </a>
 				</p>
 			</li>
 
 			<li><p>
-					<a href="#marca"><strong>TU MARCA ¡REGISTRADA!</strong> </a>
+					<a class="letra_blanca" href="#marca"><strong>TU MARCA ¡REGISTRADA!</strong> </a>
 				</p>
 			</li>
 		</ul>
@@ -79,17 +79,17 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">AUTÓNOMO</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>29€</strong>
 		</p>
 
 		<h3 class="texto_centrado letra_indie">C.B. DOS AUTÓNOMOS</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>99€</strong>
 		</p>
 		
@@ -182,12 +182,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">SUBVENCIONA TU PROYECTO</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>99€ + VARIABLE DEL 5% DE LAS SUBVENCIONES QUE SE CONSIGAN</strong>
 		</p>
 		
@@ -272,7 +272,7 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
@@ -433,12 +433,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE BÁSICO</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>199€</strong>
 		</p>
 
@@ -544,12 +544,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE MEDIUM</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>399€</strong>
 		</p>
 
@@ -660,12 +660,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE PREMIUM</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>899€</strong>
 		</p>
 
@@ -779,7 +779,7 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
@@ -787,16 +787,16 @@
 		<p class="texto_centrado">
 			<strong>Cuota desde</strong>
 		</p>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>89€/mes (gestión de 2 proveedores)</strong>
 		</p>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>130€/mes (3 proveedores)</strong>
 		</p>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>165€/mes (4 proveedores)</strong>
 		</p>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>200€/mes (5 proveedores)</strong>
 		</p>
 
@@ -892,7 +892,7 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
@@ -996,12 +996,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">LICENCIATE</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>199€ por licencia</strong>
 		</p>
 
@@ -1066,12 +1066,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">¡TU MARCA REGISTRADA!</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_azul">
 			<strong>160€ + tasas OEPM a parte</strong>
 		</p>
 

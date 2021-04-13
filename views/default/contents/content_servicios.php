@@ -1,6 +1,6 @@
 <!-- Contenido de la pagina de Servicios -->
 
-<div class="contenedor_texto contenedor_superior amarillo">
+<div class="contenedor_texto contenedor_superior amarillo letra_blanca">
 
 	<h1 class="letra_indie">SERVICIOS</h1>
 
@@ -12,19 +12,18 @@
 
 		<p>Tengo dos maneras de ayudarte:</p>
 
-		<ul class="lista_negra">
-			<a href="#asesoramiento">
+		<ul class="lista_blanca">
+			<a href="#asesoramiento" class="letra_blanca">
 				<li><p>
 						<strong>ASESORAMIENTO.</strong> Mentorías de situación de proyecto
 						¿qué necesitas?
 					</p></li> </a>
-			<a href="#acompanamiento">
+			<a href="#acompanamiento" class="letra_blanca">
 				<li><p>
 						<strong>ACOMPAÑAMIENTO.</strong> Tercerización de todo aquello que
 						no sabes hacer o no tienes tiempo para hacer.
 					</p>
-				</li>
-			</a>
+			</li> </a>
 		</ul>
 
 	</div>
@@ -39,12 +38,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado azul">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">ASESORAMIENTO</h3>
-		<p class="texto_centrado">
+		<p class="texto_centrado letra_amarilla">
 			<strong>Mentorías de situación de proyecto ¿qué necesitas?</strong>
 		</p>
 
@@ -110,10 +109,10 @@
 <div class="contenedor_bloques contenedor_flex">
 
 	<div class="bloque rosa flex">
-		<a onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
+		<a class="letra_blanca"
+			onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
 			<p class="texto_centrado">¡No me lo pienso más Bea!</p>
-			<h3 class="letra_indie">RESERVO LA SESIÓN GRATUITA</h3>
-		</a>
+			<h3 class="letra_indie">RESERVO LA SESIÓN GRATUITA</h3> </a>
 	</div>
 
 </div>
@@ -157,11 +156,11 @@
 <div class="contenedor_bloques contenedor_flex">
 
 	<div class="bloque azul flex">
-		<a onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
+		<a class="letra_blanca"
+			onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
 			<p class="texto_centrado">Ahora sí que lo tengo claro, Bea</p>
-			<h3 class="letra_indie">RESERVO LA SESIÓN GRATUITA</h3>
-		</a>
-	</div> 
+			<h3 class="letra_indie">RESERVO LA SESIÓN GRATUITA</h3> </a>
+	</div>
 
 </div>
 
@@ -173,12 +172,12 @@
 
 </div>
 
-<div class="contenedor_texto enmarcado rosa">
+<div class="contenedor_texto">
 
 	<div class="texto">
 
-		<h3 class="texto_centrado  letra_indie">ACOMPAÑAMIENTO</h3>
-		<p class="texto_centrado">
+		<h3 class="texto_centrado letra_indie">ACOMPAÑAMIENTO</h3>
+		<p class="texto_centrado letra_amarilla">
 			<strong>Tercerización de todo aquello que no sabes hacer o no tienes
 				tiempo para hacer.</strong>
 		</p>
@@ -251,7 +250,7 @@
 	<div class="texto">
 
 		<p class="texto_centrado">
-			<strong><ins>Ahora sí, ¡vamos a ver qué servicios te ofrezco!</ins></strong>
+			<strong><ins>Ahora sí, ¡vamos a ver qué servicios te ofrezco!</ins> </strong>
 		</p>
 
 	</div>
@@ -261,21 +260,18 @@
 <div class="contenedor_bloques contenedor_flex">
 
 	<div class="bloque rosa flex">
-		<a href="servicios-paquetes-brujula">
-			<h3 class="letra_indie">PAQUETES BRÚJULA</h3>
-		</a>
+		<a class="letra_blanca" href="servicios-paquetes-brujula">
+			<h3 class="letra_indie">PAQUETES BRÚJULA</h3> </a>
 	</div>
-		
-	<div class="bloque azul flex">	
-		<a href="servicios-paquetes-descongestion">
-			<h3 class="letra_indie">PAQUETES DES-CON-GESTIÓN</h3>
-		</a>
+
+	<div class="bloque azul flex">
+		<a class="letra_blanca" href="servicios-paquetes-descongestion">
+			<h3 class="letra_indie">PAQUETES DES-CON-GESTIÓN</h3> </a>
 	</div>
-	
-	<div class="bloque rosa flex">
-		<a href="servicios-paquetes-digitalizacion">
-			<h3 class="letra_indie">PAQUETES DIGITALIZACIÓN</h3>
-		</a>
+
+	<div class="bloque amarillo flex">
+		<a class="letra_blanca" href="servicios-paquetes-digitalizacion">
+			<h3 class="letra_indie">PAQUETES DIGITALIZACIÓN</h3> </a>
 	</div>
 
 </div>
