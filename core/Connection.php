@@ -1,6 +1,11 @@
 <?php
 class Connection {
 
+	//private $host = "qafc345.fluidea.es";
+	//private $username = "qafc345";
+	//private $password = "735jbZ13";
+	//private $base="bd_fluidea";
+	
 	private $host = "localhost";
 	private $username = "root";
 	private $password = "";
