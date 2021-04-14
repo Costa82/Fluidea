@@ -15,7 +15,7 @@ class ControladorFormularios {
 	public function formulario() {
 		//6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip local
 		//6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP producción
-		$recaptcha_secret = '6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip';
+		$recaptcha_secret = '6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP';
 		$recaptcha_response = $_POST['recaptcha_response'];
 
 		$ch = curl_init();
@@ -104,7 +104,7 @@ class ControladorFormularios {
 	{
 		//6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip local
 		//6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP producción
-		$recaptcha_secret = '6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip';
+		$recaptcha_secret = '6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP';
 		$recaptcha_response = $_POST['recaptcha_response'];
 
 		$ch = curl_init();
@@ -165,7 +165,7 @@ class ControladorFormularios {
 	public function formulario_recurso() {
 		//6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip local
 		//6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP producción
-		$recaptcha_secret = '6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip';
+		$recaptcha_secret = '6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP';
 		$recaptcha_response = $_POST['recaptcha_response'];
 
 		$ch = curl_init();

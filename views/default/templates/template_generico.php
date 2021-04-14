@@ -50,14 +50,14 @@ else
 
 <!-- Inicio Recaptcha -->
 <script
-	src='https://www.google.com/recaptcha/api.js?render=6LeZYaUaAAAAAKmOGIfLSFGo7We4TrIDUQWvMcOH'> 
+	src='https://www.google.com/recaptcha/api.js?render=6Ld0YqUaAAAAAE8bIzEdbqnkxxAlJB8C609rz53B'> 
 	//6LeZYaUaAAAAAKmOGIfLSFGo7We4TrIDUQWvMcOH local
 	//6Ld0YqUaAAAAAE8bIzEdbqnkxxAlJB8C609rz53B producción
 </script>
 
 <script>
 	grecaptcha.ready(function() {
-	grecaptcha.execute('6LeZYaUaAAAAAKmOGIfLSFGo7We4TrIDUQWvMcOH', {action: 'newsletter'})
+	grecaptcha.execute('6Ld0YqUaAAAAAE8bIzEdbqnkxxAlJB8C609rz53B', {action: 'newsletter'})
 	.then(function(token) {
 	var recaptchaResponse = document.getElementById('recaptchaResponse');
 	recaptchaResponse.value = token;

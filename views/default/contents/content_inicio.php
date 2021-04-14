@@ -124,7 +124,7 @@
 
 	<div class="contenedor_boton texto_centrado recurso_gratuito">
 
-		<a class="boton rosa letra_indie" href="">¡Quiero mi recurso gratuito!</a>
+		<a class="boton rosa letra_indie" href="">¡Quiero mi GUIA GRATUITA!</a>
 
 	</div>
 
