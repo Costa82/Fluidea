@@ -4,7 +4,7 @@ class Connection {
 	private $host = "qafc345.fluidea.es";
 	private $username = "qafc345";
 	private $password = "735jbZ13";
-	private $base="bd_fluidea";
+	private $base="qafc345";
 	
 	//private $host = "localhost";
 	//private $username = "root";
