@@ -1,6 +1,6 @@
 <!-- Contenido de la pagina de Contacto -->
 
-<div class="contenedor_texto contenedor_superior amarillo">
+<div class="contenedor_texto contenedor_superior amarillo letra_blanca">
 
 	<h1 class="letra_indie">CONTACTO</h1>
 

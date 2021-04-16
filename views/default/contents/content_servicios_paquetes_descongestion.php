@@ -85,12 +85,12 @@
 
 		<h3 class="texto_centrado letra_indie">AUTÓNOMO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>29€</strong>
+			<strong>29€ + IVA</strong>
 		</p>
 
 		<h3 class="texto_centrado letra_indie">C.B. DOS AUTÓNOMOS</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>99€</strong>
+			<strong>99€ + IVA</strong>
 		</p>
 		
 	</div>
@@ -188,7 +188,7 @@
 
 		<h3 class="texto_centrado letra_indie">SUBVENCIONA TU PROYECTO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>99€ + VARIABLE DEL 5% DE LAS SUBVENCIONES QUE SE CONSIGAN</strong>
+			<strong>99€ + VARIABLE DEL 5% DE LAS SUBVENCIONES QUE SE CONSIGAN + IVA</strong>
 		</p>
 		
 	</div>
@@ -439,7 +439,7 @@
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE BÁSICO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>199€</strong>
+			<strong>199€ + IVA</strong>
 		</p>
 
 	</div>
@@ -550,7 +550,7 @@
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE MEDIUM</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>399€</strong>
+			<strong>399€ + IVA</strong>
 		</p>
 
 	</div>
@@ -666,7 +666,7 @@
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE PREMIUM</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>899€</strong>
+			<strong>899€ + IVA</strong>
 		</p>
 
 	</div>
@@ -788,16 +788,16 @@
 			<strong>Cuota desde</strong>
 		</p>
 		<p class="texto_centrado letra_azul">
-			<strong>89€/mes (gestión de 2 proveedores)</strong>
+			<strong>89€/mes + IVA (gestión de 2 proveedores)</strong>
 		</p>
 		<p class="texto_centrado letra_azul">
-			<strong>130€/mes (3 proveedores)</strong>
+			<strong>130€/mes + IVA (3 proveedores)</strong>
 		</p>
 		<p class="texto_centrado letra_azul">
-			<strong>165€/mes (4 proveedores)</strong>
+			<strong>165€/mes + IVA (4 proveedores)</strong>
 		</p>
 		<p class="texto_centrado letra_azul">
-			<strong>200€/mes (5 proveedores)</strong>
+			<strong>200€/mes + IVA (5 proveedores)</strong>
 		</p>
 
 	</div>
@@ -1002,7 +1002,7 @@
 
 		<h3 class="texto_centrado letra_indie">LICENCIATE</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>199€ por licencia</strong>
+			<strong>199€ + IVA por licencia</strong>
 		</p>
 
 	</div>
@@ -1072,7 +1072,7 @@
 
 		<h3 class="texto_centrado letra_indie">¡TU MARCA REGISTRADA!</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>160€ + tasas OEPM a parte</strong>
+			<strong>160€ + IVA + tasas OEPM a parte</strong>
 		</p>
 
 	</div>

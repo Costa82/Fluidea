@@ -13,6 +13,9 @@ class ControladorFormularios {
 	 * Método para el formulario
 	 */
 	public function formulario() {
+		
+		$_SESSION['nombre_pagina'] = 'Envio';
+		
 		//6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip local
 		//6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP producción
 		$recaptcha_secret = '6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP';
@@ -76,7 +79,15 @@ class ControladorFormularios {
 				}
 					
 				// Comprobamos cómo ha ido el envío y registramos el usuario
-				if ($envio != "OK") {
+				if ($envio == "OK") {
+					if ($id != null) {
+						$_SESSION['nombre_pagina'] = 'Envio_Newsletter';
+						$_SESSION['error'] = 101;
+					}
+					else {
+						$_SESSION['error'] = 100;
+					}
+				} else {
 					$_SESSION['error'] = 501;
 				}
 
@@ -100,8 +111,10 @@ class ControladorFormularios {
 	/**
 	 * Método para el formulario de newsletter
 	 */
-	public function formulario_newsletter()
-	{
+	public function formulario_newsletter() {
+		
+		$_SESSION['nombre_pagina'] = 'Envio';
+		
 		//6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip local
 		//6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP producción
 		$recaptcha_secret = '6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP';
@@ -137,8 +150,10 @@ class ControladorFormularios {
 					$envio = $correo->enviarMailsNewsletter($mail, $nombre);
 				}
 					
-				// Comprobamos cómo ha ido el envío
-				if ( $envio != "OK" ) {
+				// Comprobamos cómo ha ido el envío y registramos el usuario
+				if ($envio == "OK") {
+					$_SESSION['error'] = 100;
+				} else {
 					$_SESSION['error'] = 501;
 				}
 
@@ -163,6 +178,9 @@ class ControladorFormularios {
 	 * Método para el formulario_recurso
 	 */
 	public function formulario_recurso() {
+		
+		$_SESSION['nombre_pagina'] = 'Envio';
+		
 		//6LeZYaUaAAAAAO-MQb520J8lKHd6CYxPRN_uuRip local
 		//6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP producción
 		$recaptcha_secret = '6Ld0YqUaAAAAAEfdIihx_EjQ9mzIoVG-a7WdotyP';
@@ -215,7 +233,14 @@ class ControladorFormularios {
 				}
 					
 				// Comprobamos cómo ha ido el envío y registramos el usuario
-				if ($envio != "OK") {
+				if ($envio == "OK") {
+					if ($id != null) {
+						$_SESSION['nombre_pagina'] = 'Envio_Recurso';
+						$_SESSION['error'] = 101;
+					}
+					else 
+						$_SESSION['error'] = 100;
+				} else {
 					$_SESSION['error'] = 501;
 				}
 
@@ -240,7 +265,6 @@ class ControladorFormularios {
 	 * Método para cargar la respuesta_envio
 	 */
 	public function respuesta_envio() {
-		$_SESSION['nombre_pagina'] = 'Envio';
 		if(isset($_SESSION['error']) && $_SESSION['error'] != 0) {
 			$params['error'] = $_SESSION['error'];
 			$_SESSION['error'] = 0;

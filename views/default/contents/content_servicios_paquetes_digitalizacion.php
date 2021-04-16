@@ -129,7 +129,7 @@
 
 		<h3 class="texto_centrado letra_indie">BIENVENIDO AL MUNDO DIGITAL BÁSICO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>89€</strong>
+			<strong>89€ + IVA</strong>
 		</p>
 
 	</div>
@@ -181,7 +181,7 @@
 
 		<h3 class="texto_centrado letra_indie">BIENVENIDO AL MUNDO DIGITAL MEDIUM</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>199€</strong>
+			<strong>199€ + IVA</strong>
 		</p>
 
 	</div>
@@ -242,7 +242,7 @@
 
 		<h3 class="texto_centrado letra_indie">BIENVENIDO AL MUNDO DITAL PREMIUM</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>399€</strong>
+			<strong>399€ + IVA</strong>
 		</p>
 
 	</div>

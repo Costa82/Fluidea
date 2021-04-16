@@ -62,8 +62,8 @@
 		<p>
 			Primera Sesión de media hora, <strong>GRATUITA</strong>
 		</p>
-		<p>
-			<i>(las siguientes sesiones son a 33€+IVA de una hora de duración)</i>
+		<p class="letra_azul">
+			<strong>(las siguientes sesiones son a 40€ + IVA de una hora de duración)</strong>
 		</p>
 
 		<ul class="lista_amarilla">

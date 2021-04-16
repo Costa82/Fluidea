@@ -115,7 +115,7 @@
 
 		<h3 class="texto_centrado letra_indie">¡REVISAMOS JUNTOS TU B.P.!</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>69€</strong>
+			<strong>69€ + IVA</strong>
 		</p>
 
 	</div>
@@ -156,7 +156,7 @@
 
 		<h3 class="texto_centrado letra_indie">¡CREAMOS JUNTOS TU B.P. PROFESIONAL!</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>369€</strong>
+			<strong>369€ + IVA</strong>
 		</p>
 
 	</div>
@@ -216,7 +216,7 @@
 
 		<h3 class="texto_centrado letra_indie">¡CREAMOS JUNTOS TU SUPER B.P.!</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>520€</strong>
+			<strong>520€ + IVA</strong>
 		</p>
 
 	</div>

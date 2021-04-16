@@ -8,6 +8,16 @@
 		if (isset($params['error']) && $params['error'] != 0) {
 			
 			switch ($params['error']) {
+				// Formulario enviado correctamente
+				case 100:
+					include_once('./views/default/templates/template_envio_correcto_sin_confirmacion.php');
+				break;
+				
+				// Formulario enviado correctamente sin enlace de confirmación
+				case 101:
+					include_once('./views/default/templates/template_envio_correcto.php');
+				break;
+				
 				// Error en el envío del formulario
 				case 501:
 					include_once('./views/default/templates/template_envio_fallido.php');

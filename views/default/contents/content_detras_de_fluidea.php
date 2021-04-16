@@ -31,15 +31,14 @@
 		<p>Ayudo a mis clientes en la fase de puesta en marcha de su negocio,
 			para hacerlo más rápido, con más seguridad y con menos gasto.</p>
 
+		<p class="texto_centrado">Uno de mis mantras es: Un esfuerzo más es un
+			fracaso menos.</p>
+
 		<p class="texto_centrado">Y el otro: Siempre parece imposible, hasta
 			que lo haces.</p>
 
 		<p class="texto_centrado">Bueno, tengo más, pero ya te los iré
 			contando.</p>
-
-		<p class="texto_centrado">También soy mamá de un bebé precioso de año
-			y medio que me trae loca y que me ha cambiado absolutamente la manera
-			de ver la vida.</p>
 
 		<p>Facilito mentorización y acompañamiento directo como un socio
 			único, con la mira puesta siempre hacia adelante, dándole flow, caña
@@ -110,7 +109,8 @@
 
 		<div class="contenedor_boton texto_centrado">
 			<p>
-				<a class="boton azul letra_indie" href="servicios">Quiero que me ayudes, Bea</a>
+				<a class="boton azul letra_indie" href="servicios">Quiero que me
+					ayudes, Bea</a>
 			</p>
 		</div>
 
@@ -149,12 +149,12 @@
 		<div class="contenedor_bloques contenedor_flex">
 
 			<div class="bloque rosa flex">
-				<a class="letra_blanca" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
+				<a class="letra_blanca"
+					onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fluidea/reunion-gratuita?primary_color=f7c300'});return false;">
 					<h3 class="letra_indie">¡RESÉRVALA AHORA!</h3>
 					<p>Y da el primer paso seguro hacia el lanzamiento de tu proyecto</p>
-					<h3 class="letra_indie">¡CON FLOW!</h3>
-				</a>
-			</div> 
+					<h3 class="letra_indie">¡CON FLOW!</h3> </a>
+			</div>
 
 		</div>
 

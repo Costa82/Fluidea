@@ -69,16 +69,19 @@ class Correo {
 		$contenidoHTML .= "<h2 style='color: #f7c300'>¡Bienvenidx a Fluidea " . $nombre . "!</h2>";
 		$contenidoHTML .= "<p>Gracias por querer formar parte de mi Clan de emprendedores con ganas de implementar de 
 						   manera real y eficaz sus ideas, para pasar a hacerlas proyectos y después negocios reales, viables y solventes.</p>
-						   <p>Solo queda que pulses el botón para confirmar que este es tu email y que guardes mi dirección en tu lista de direcciones
-						   para que nada se interponga entre nosotros.</p>";
+						   <p>Hemos recibido tu consulta, en nada resolveré tus dudas.</p>";
 
 		if ($newsletter == "SI" && $id != null) {
 			$codificado = Utils::codifica($id);
-			$contenidoHTML .= "<p><a href='https://www.fluidea.es/newsletter+".$codificado."'>BEA, CONFIRMO MI SUSCRIPCIÓN</a></p>";
+			$contenidoHTML .= "<p>Solo queda que pulses el botón para confirmar que este es tu email y que guardes mi dirección en tu lista de direcciones
+						   para que nada se interponga entre nosotros.</p>
+						   <p><a href='https://www.fluidea.es/newsletter+".$codificado."'>BEA, CONFIRMO MI SUSCRIPCIÓN</a></p>";
 		}
 
 		$contenidoHTML .= "<p><strong>P.D.</strong> Como ya sabes, porque vienes de echar un buen vistazo a mi web, mi único fin es valorar contigo los inicios de tu proyecto o 
-						   negocio y brindarte todo el tiempo del mundo para que tus ideas creativas fluyan sin fin y te puedas dedicar a lo que realmente solo tú puedes hacer, desarrollar tu genial idea. Pero, además, conmigo acompañándote, estarás completamente tranquilx ya que tendrás todo bien atado y conseguirás tus objetivos mucho antes que si anduvieses ese camino tú solx.</p>
+						   negocio y brindarte todo el tiempo del mundo para que tus ideas creativas fluyan sin fin y te puedas dedicar a lo que realmente solo tú puedes hacer, 
+						   desarrollar tu genial idea. Pero, además, conmigo acompañándote, estarás completamente tranquilx ya que tendrás todo bien atado y conseguirás tus 
+						   objetivos mucho antes que si anduvieses ese camino tú solx.</p>
 						   <p>¿Empezamos?</p>
 						   <p>Bea de Fluidea</p>
 						   </br>
@@ -101,7 +104,11 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA - (ACCIÓN NECESARIA) Confirma tu suscripción";
+		if ($newsletter == "SI" && $id != null) {
+			$smtp->Subject = "FLUIDEA - (ACCIÓN NECESARIA) Confirma tu suscripción";
+		} else {
+			$smtp->Subject = "FLUIDEA - Bienvenido";	
+		}
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
