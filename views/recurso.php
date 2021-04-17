@@ -28,6 +28,8 @@ if (isset($_SESSION['id'])) {
 			
 			if ($envio == "OK") {
 				$usuario->udpateById("newsletter", "SI", $id);
+				$hoy = date('Y-m-d H:i:s');
+				$usuario->udpateById("fecha_ult_modificacion", $hoy, $id);
 			}
 		}
 	}

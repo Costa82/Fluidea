@@ -66,6 +66,8 @@ abstract class AbstractBBDD {
 			if ($resul = $conexion->store_result()) {
 				if ($resul->num_rows > 0) {
 					return $resul->fetch_assoc();
+				} else {
+					return null;
 				}
 			}
 		}

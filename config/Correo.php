@@ -69,7 +69,7 @@ class Correo {
 		$contenidoHTML .= "<h2 style='color: #f7c300'>¡Bienvenidx a Fluidea " . $nombre . "!</h2>";
 		$contenidoHTML .= "<p>Gracias por querer formar parte de mi Clan de emprendedores con ganas de implementar de 
 						   manera real y eficaz sus ideas, para pasar a hacerlas proyectos y después negocios reales, viables y solventes.</p>
-						   <p>Hemos recibido tu consulta, en nada resolveré tus dudas.</p>";
+						   <p>He recibido tu consulta, en nada resolveré tus dudas.</p>";
 
 		if ($newsletter == "SI" && $id != null) {
 			$codificado = Utils::codifica($id);
