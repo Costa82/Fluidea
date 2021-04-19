@@ -105,9 +105,9 @@ class Correo {
 
 		// Definimos el subject
 		if ($newsletter == "SI" && $id != null) {
-			$smtp->Subject = "FLUIDEA - (ACCIÓN NECESARIA) Confirma tu suscripción";
+			$smtp->Subject = "Bea de Fluidea - (Acción necesaria) Confirma tu suscripción";
 		} else {
-			$smtp->Subject = "FLUIDEA - Bienvenido";	
+			$smtp->Subject = "Bea de Fluidea - Bienvenido";	
 		}
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
@@ -229,7 +229,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA - SOLO UN PASO MÁS PARA DESCARGAR LA GUÍA";
+		$smtp->Subject = "Bea de Fluidea - Solo un paso más para descargar la guía";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -334,7 +334,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA - CONFIRMADO, YA ESTÁS DADX DE BAJA";
+		$smtp->Subject = "Bea de Fluidea - Confirmado, ya estás dadx de baja";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -431,7 +431,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA";
+		$smtp->Subject = "Bea de Fluidea";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -515,7 +515,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA";
+		$smtp->Subject = "Bea de Fluidea";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -599,7 +599,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA";
+		$smtp->Subject = "Bea de Fluidea";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -704,7 +704,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA - ¡YA ERES PARTE DEL CLAN DE FLUIDEA!";
+		$smtp->Subject = "Bea de Fluidea - ¡Ya eres parte del clan de fluidea!";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -819,7 +819,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA - BIENVENIDX, AQUÍ TIENES TU GUÍA";
+		$smtp->Subject = "Bea de Fluidea - Bienvenidx, aquí tienes tu guía";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -912,7 +912,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA";
+		$smtp->Subject = "Bea de Fluidea";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
@@ -996,7 +996,7 @@ class Correo {
 		// $contenidoTexto.="\n\nhttp://www.lawebdelprogramador.com";
 
 		// Definimos el subject
-		$smtp->Subject = "FLUIDEA";
+		$smtp->Subject = "Bea de Fluidea";
 
 		// Adjuntamos el archivo "leameLWP.txt" al correo.
 		// Obtenemos la ruta absoluta de donde se ejecuta este script para encontrar el
