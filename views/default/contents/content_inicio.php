@@ -21,34 +21,33 @@
 
 <div class="contenedor_texto contenedor_flex">
 
+	<p class="letra_indie">
+		Fluidea es un espacio en el que te ofrezco TIEMPO
+		para que tus IDEAS FLUYAN.
+	</p>
+
 	<div class="texto texto_flex">
-
-		<p>
-			Fluidea es un espacio en el que te ofrezco <span class="letra_indie">TIEMPO</span>
-			para que tus IDEAS FLUYAN.
-		</p>
-
+	
 		<p>Si has llegado hasta este lugar tan especial que he creado para ti,
 			es que eres emprendedor/a y te va a sonar todo esto que te cuento:</p>
-
+			
 		<p>Cuando te has puesto en marcha a llevar a cabo ese proyecto que
 			tienes en la cabeza, te estás encontrando una serie de obstáculos que
 			pueden:</p>
-
-		<p class="texto_centrado">Mermar tu motivación</p>
-		<p class="texto_centrado">Hacerte perder el tiempo y llegar mucho más
-			tarde a tu objetivo</p>
-		<p class="texto_centrado">Desviarte directamente de tu objetivo Y
-			finalmente, en ocasiones:</p>
-		<p class="texto_centrado">Hacerte tirar la toalla</p>
-
+			
 	</div>
+			
+	<div class="texto texto_flex">
 
-	<div class="imagen_flex">
-
-		<img class="mediano"
-			src="./views/default/img/inicio/2._pagina_inicio.jpg">
-
+		<ul class="lista_amarilla">
+			<li><p>Mermar tu motivación</p></li>
+			<li><p>Hacerte perder el tiempo y llegar mucho más
+				tarde a tu objetivo</p></li>
+			<li><p>Desviarte directamente de tu objetivo Y
+				finalmente, en ocasiones:</p></li>
+			<li><p>Hacerte tirar la toalla</p></li>
+		</ul>
+		
 	</div>
 
 </div>
@@ -69,6 +68,14 @@
 		<p>Con Fluidea podrás acortar tu camino y lanzar mucho antes y con
 			mayor seguridad, tu proyecto de emprendimiento.</p>
 
+	</div>
+
+</div>
+
+<div class="contenedor_texto">
+
+	<div class="texto">
+
 		<div class="contenedor_boton texto_centrado">
 
 			<a class="boton azul letra_indie"
@@ -76,12 +83,12 @@
 				mi cita gratuita con Bea</a>
 
 		</div>
-
+		
 	</div>
-
+		
 </div>
 
-<div class="contenedor_texto">
+<!-- div class="contenedor_texto">
 
 	<div class="texto_centrado">
 
@@ -118,17 +125,7 @@
 
 	</div>
 
-</div>
-
-<div class="contenedor_texto">
-
-	<div class="contenedor_boton texto_centrado recurso_gratuito">
-
-		<a class="boton rosa letra_indie" href="">¡Quiero mi GUIA GRATUITA!</a>
-
-	</div>
-
-</div>
+</div -->
 
 <div class="ventana_formulario_recurso">
 
@@ -200,6 +197,24 @@
 			¿En qué consiste? Me convertiré en ese socio único que estás buscando
 			para tu proyecto, pero solo cuando lo necesites:</i>
 		</p>
+		
+	</div>
+	
+</div>
+
+<div class="contenedor_texto">
+
+	<div class="contenedor_boton texto_centrado recurso_gratuito">
+
+		<a class="boton rosa letra_indie" href="">¡Quiero mi GUIA GRATUITA!</a>
+
+	</div>
+
+</div>
+
+<div class="contenedor_texto">
+
+	<div class="texto">
 
 		<p class="texto_centrado">
 			<strong>Con mi método <a class="amarillo1 letra_indie"
@@ -215,17 +230,26 @@
 			un porcentaje de tu empresa a alguien…seré tu socio temporal. Con
 			todo lo que ello conlleva, porque, cuando hablamos de un socio, ¿a
 			qué me estoy refiriendo? Te lo explico fácil:</p>
+			
+		<ul class="lista_rosa">
+			<li><p><i>¿Qué esperas de un socio?</i></p></li>
+			<li><p>Que entienda tu proyecto tanto como tú</p></li>
+			<li><p>Que le salga por los poros tanto como a ti</p></li>
+			<li><p>Que sienta las mismas mariposas en el
+			estómago que tú cuando hablas de ello</li>
+		</ul>
 
-		<p class="texto_centrado">
-			<i>¿Qué esperas de un socio?</i>
-		</p>
-		<p class="texto_centrado">Que entienda tu proyecto tanto como tú</p>
-		<p class="texto_centrado">Que le salga por los poros tanto como a ti</p>
-		<p class="texto_centrado">Que sienta las mismas mariposas en el
-			estómago que tú cuando hablas de ello</p>
 		<p class="texto_centrado">
 			<strong>Eso encontrarás trabajando conmigo.</strong>
 		</p>
+
+	</div>
+
+</div>
+
+<div class="contenedor_texto">
+
+	<div class="texto">
 
 		<div class="contenedor_boton texto_centrado">
 			<p>

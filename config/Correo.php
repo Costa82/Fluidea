@@ -11,7 +11,7 @@ class Correo {
 	private $correoBea;
 
 	public function __construct() {
-		$this->contrasena = "735jbZ13";
+		$this->contrasena = "CgH12740Z";
 		$this->correoAdministrador = "hola@fluidea.es";
 	}
 
@@ -201,8 +201,8 @@ class Correo {
 		$contenidoHTML .= "<p>La GUÍA GRATUITA te facilitará lo siguiente:</p>
 						   <p><strong>1. ¿CÓMO REALIZO Y RELLENO EL MODELO CANVAS?</strong></p>
 						   <p><strong>2. ¿QUÉ SIGNIFICA CADA UNO DE LOS APARTADOS DE ESTE MODELO?</strong></p>
-						   <p><strong>Y si, aun habiendo llegado hasta aquí, no sabes qué es este modelo, porqué lo necesitas y cómo te ayudará a pasar de tener una “idea mágica” en la cabeza, a un negocio tangible, pincha 
-						   aquí y vete a mi entrada de blog donde explico todo este intríngulis. </strong></p>
+						   <!-- p><strong>Y si, aun habiendo llegado hasta aquí, no sabes qué es este modelo, porqué lo necesitas y cómo te ayudará a pasar de tener una “idea mágica” en la cabeza, a un negocio tangible, pincha 
+						   aquí y vete a mi entrada de blog donde explico todo este intríngulis. </strong></p -->
                            <p>Un abrazo,</p>
                            <p>Bea de Fluidea.</p>
                            </br><p>P.D. Sígueme en mis redes:</p>
@@ -676,7 +676,7 @@ class Correo {
 		$contenidoHTML .= "<h2 style='color: #f7c300'>¡LISTO!</h2>";
 		$contenidoHTML .= "<p>¡¡Ya estás dadx de alta en mi CLAN de emprendedores reales!!</p>
 						   <p>Mientras te llega mi primer email puedes:</p>
-						   <p>-	Darte un paseo por mi blog y leer los posts que tengo colgados, seguro que podrás ir sacando ideas de cómo vas a poner en marcha esa idea tan increíble que tienes en la cabecita.</p>
+						   <!-- p>-	Darte un paseo por mi blog y leer los posts que tengo colgados, seguro que podrás ir sacando ideas de cómo vas a poner en marcha esa idea tan increíble que tienes en la cabecita.</p -->
 						   <p>-	Pasarte por mi IG, @fluidea.es, y comentar conmigo y con el resto del CLAN, todo lo que te interesa, te vuelve un poco locx, lo que no sabes ni por donde coger… en definitiva, TODO 
 						   lo que te apetezca soltar para mantener tu superenergía emprendedora a tope, ya sabes, una de mis máximas es que JUNTOS ES MEJOR.</p>
 						   <p>-	Ver mis servicios con los que podemos trabajar juntos para que tu idea tome forma mucho antes y mucho mejor. Recuerda: yo trabajaré junto a ti, codo con codo, no te enseñaré (bueno, 

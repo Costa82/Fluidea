@@ -28,17 +28,17 @@
 
 	<div class="texto">
 
-		<p>Ayudo a mis clientes en la fase de puesta en marcha de su negocio,
+		<p class="letra_indie">Ayudo a mis clientes en la fase de puesta en marcha de su negocio,
 			para hacerlo más rápido, con más seguridad y con menos gasto.</p>
-
-		<p class="texto_centrado">Uno de mis mantras es: Un esfuerzo más es un
-			fracaso menos.</p>
-
-		<p class="texto_centrado">Y el otro: Siempre parece imposible, hasta
-			que lo haces.</p>
-
-		<p class="texto_centrado">Bueno, tengo más, pero ya te los iré
-			contando.</p>
+			
+		<ul class="lista_amarilla">
+			<li><p>Uno de mis mantras es: Un esfuerzo más es un
+			fracaso menos.</p></li>
+			<li><p>Y el otro: Siempre parece imposible, hasta
+			que lo haces.</p></li>
+			<li><p>Bueno, tengo más, pero ya te los iré
+			contando.</p></li>
+		</ul>
 
 		<p>Facilito mentorización y acompañamiento directo como un socio
 			único, con la mira puesta siempre hacia adelante, dándole flow, caña
@@ -52,7 +52,7 @@
 
 	<div class="texto">
 
-		<p>Pues bien, vamos a ver cómo mi experiencia, va a ayudar a que tu
+		<p class="letra_indie">Pues bien, vamos a ver cómo mi experiencia, va a ayudar a que tu
 			proyecto despegue mucho antes y con menos obstáculos por el camino:</p>
 
 		<p>Soy diplomada en Relaciones Laborales y Licenciada en Ciencias del
@@ -94,7 +94,7 @@
 			tu propia mochila. ¿Quieres tener una serpa emocional y con la que
 			compartir el trabajo en este camino?</p>
 
-		<p>Estás en el sitio adecuado.</p>
+		<p class="letra_indie"><strong>Estás en el sitio adecuado.</strong></p>
 
 		<p>Tras darme cuenta de los problemas que debía afrontar, decidí
 			formarme en emprendimiento y poner mi experiencia en valor para

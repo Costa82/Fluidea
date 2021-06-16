@@ -33,7 +33,7 @@ class ControladorFormularios {
 		$respuesta_google = json_decode($ch_exec);
 		
 		//FIXME Quitamos hasta más adelante la seguridad de Google
-		//if($respuesta_google->success === true){
+		if($respuesta_google->success === true){
 
 			if(isset($_REQUEST['nombre']) AND isset($_REQUEST['mail']) AND isset($_REQUEST['consulta'])){
 
@@ -104,11 +104,11 @@ class ControladorFormularios {
 				$_SESSION['error'] = 502;
 			}
 
-		//}
+		}
 		// El recaptcha ha ido mal
-		//else {
-			//$_SESSION['error'] = 503;
-		//}
+		else {
+			$_SESSION['error'] = 503;
+		}
 
 		if (!headers_sent()) {
 			header('Location:respuesta_envio');
@@ -140,7 +140,7 @@ class ControladorFormularios {
 		$respuesta_google = json_decode($ch_exec);
 		
 		//FIXME Quitamos hasta más adelante la seguridad de Google
-		//if($respuesta_google->success === true){
+		if($respuesta_google->success === true){
 
 			if(isset($_REQUEST['nombre']) AND isset($_REQUEST['mail'])){
 
@@ -200,11 +200,11 @@ class ControladorFormularios {
 				$_SESSION['error'] = 502;
 			}
 
-		//}
+		}
 		// El recaptcha ha ido mal
-		//else {
-			//$_SESSION['error'] = 503;
-		//}
+		else {
+			$_SESSION['error'] = 503;
+		}
 
 		if (!headers_sent()) {
 			header('Location:respuesta_envio');

@@ -80,7 +80,7 @@ a:-webkit-any-link:focus {
 
 .contenedor_flex {
 	display: flex;
-	align-items: center;
+	align-items: start;
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -105,7 +105,7 @@ a:-webkit-any-link:focus {
 }
 
 .texto_flex {
-	padding-top: 15px;
+	padding: 25px 15px 15px 15px;
 	width: 45%;
 	min-width: 200px;
 }
@@ -157,7 +157,7 @@ a.amarillo1:hover {
 
 .letra_indie {
 	font-family: 'WaitingfortheSunrise-Regular', cursive;
-	font-size: 22px;
+	font-size: 15px;
 }
 
 .letra_blanca {
@@ -189,11 +189,11 @@ nav.contacto {
 }
 
 nav.detras {
-	background-image: url("../img/sobre mi/1_principal_pagina_sobre_mi.png");
+	background-image: url("../img/servicios/1._pagina_servicios.jpg");
 }
 
 nav.servicios {
-	background-image: url("../img/servicios/1._pagina_servicios.jpg");
+	background-image: url("../img/sobre mi/1_principal_pagina_sobre_mi.png");
 }
 
 nav .fa {
@@ -244,6 +244,7 @@ nav>ul>li>a:hover,nav>ul>li>a:hover>.fa {
 .inicio_logo {
 	flex: 1 1 auto;
 	padding-left: 0;
+	
 }
 
 .inicio_logo img {
@@ -318,7 +319,7 @@ nav>ul>li>ul#lista_movil li {
 ========================================================================= */
 .contenedor_texto {
 	width: 85%;
-	margin: 30px auto 0;
+	margin: 30px auto;
 	text-align: justify;
 }
 
@@ -331,13 +332,19 @@ nav>ul>li>ul#lista_movil li {
 	padding: 20px;
 	border-radius: 10px;
 	margin-top: -170px;
+	opacity: 0.9;
 	transition: all .5s ease-in-out;
 }
 
 .contenedor_superior_inicio {
 	padding: 20px 20px 5px 20px;
 	border-radius: 10px;
-	margin-top: -110px;
+	position: absolute;
+	top: 350px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0.8;
 	transition: all .5s ease-in-out;
 }
 
@@ -467,6 +474,7 @@ a.boton {
     vertical-align: middle;
     border: 0;
     font-weight: 300;
+    font-size: 20px;
     line-height: 50px;
     color: #fff;
     border-radius: 10px;
@@ -708,7 +716,10 @@ footer h3 {
 		font-size: 17px;
 	}
 	.letra_indie {
-		font-size: 30px;
+		font-size: 20px;
+	}
+	.contenedor_superior_inicio {
+		top: 125px;
 	}
 }
 
@@ -729,7 +740,7 @@ footer h3 {
 		
 	}
 	.contenedor_superior_inicio {
-		margin-top: -140px;
+		top: 70px;
 	}
 	.enmarcado {
 		padding: 20px;
@@ -759,19 +770,19 @@ footer h3 {
 	nav.menuNavGrande {
 		height: 900px;
 	}
+	.contenedor_superior_inicio {
+		top: 100px;
+	}
 }
 
 /* Para resoluciones a partir de 1400px */
 @media only screen and (min-width: 1400px) {
 	.contenedor_texto {
 		width: 60%;
-		margin: 45px auto 0;
+		margin: 45px auto;
 	}
 	.contenedor_superior {
 		margin-top: -200px;
-	}
-	.contenedor_superior_inicio {
-		margin-top: -150px;
 	}
 	.enmarcado {
 		padding: 30px;
