@@ -188,7 +188,7 @@
 
 		<h3 class="texto_centrado letra_indie">SUBVENCIONA TU PROYECTO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>99€ + VARIABLE DEL 5% DE LAS SUBVENCIONES QUE SE CONSIGAN + IVA</strong>
+			<strong>PRIMER PAGO DE 99€ + IVA + UN VARIABLE EN FUNCIÓN DE LOS IMPORTES CONSEGUIDOS</strong>
 		</p>
 		
 	</div>
