@@ -85,12 +85,12 @@
 
 		<h3 class="texto_centrado letra_indie">AUTÓNOMO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>29€ + IVA</strong>
+			<!-- <strong>50€ + IVA</strong> -->
 		</p>
 
 		<h3 class="texto_centrado letra_indie">C.B. DOS AUTÓNOMOS</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>99€ + IVA</strong>
+			<!-- <strong>125€ + IVA</strong> -->
 		</p>
 		
 	</div>
@@ -188,7 +188,13 @@
 
 		<h3 class="texto_centrado letra_indie">SUBVENCIONA TU PROYECTO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>PRIMER PAGO DE 99€ + IVA + UN VARIABLE EN FUNCIÓN DE LOS IMPORTES CONSEGUIDOS</strong>
+			<strong>Estudio del perfil del cliente y rastreo de subvenciones activas <!-- : 99€+ IVA --></strong>
+		</p>
+		<p class="texto_centrado letra_azul">
+			<strong>Presentación de subvención<!-- : desde 25€ + IVA (dependiendo del tipo de subvención) --></strong>
+		</p>
+		<p class="texto_centrado letra_azul">
+			<strong>+ % variable en función del importe conseguido (solo en caso de éxito)</strong>
 		</p>
 		
 	</div>
@@ -439,7 +445,7 @@
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE BÁSICO</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>199€ + IVA</strong>
+			<!-- <strong>199€ + IVA</strong> -->
 		</p>
 
 	</div>
@@ -550,7 +556,7 @@
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE MEDIUM</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>399€ + IVA</strong>
+			<!-- <strong>399€ + IVA</strong> -->
 		</p>
 
 	</div>
@@ -666,7 +672,7 @@
 
 		<h3 class="texto_centrado letra_indie">PROVEE TU NEGOCIO. PAQUETE PREMIUM</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>899€ + IVA</strong>
+			<!-- <strong>899€ + IVA</strong> -->
 		</p>
 
 	</div>
@@ -784,7 +790,7 @@
 	<div class="texto">
 
 		<h3 class="texto_centrado letra_indie">PROVEYENDO QUE ES GERUNDIO</h3>
-		<p class="texto_centrado">
+		<!-- <p class="texto_centrado">
 			<strong>Cuota desde</strong>
 		</p>
 		<p class="texto_centrado letra_azul">
@@ -798,7 +804,7 @@
 		</p>
 		<p class="texto_centrado letra_azul">
 			<strong>200€/mes + IVA (5 proveedores)</strong>
-		</p>
+		</p> -->
 
 	</div>
 
@@ -1002,7 +1008,7 @@
 
 		<h3 class="texto_centrado letra_indie">LICENCIATE</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>199€ + IVA por licencia</strong>
+			<!-- <strong>199€ + IVA por licencia</strong> -->
 		</p>
 
 	</div>
@@ -1072,7 +1078,7 @@
 
 		<h3 class="texto_centrado letra_indie">¡TU MARCA REGISTRADA!</h3>
 		<p class="texto_centrado letra_azul">
-			<strong>160€ + IVA + tasas OEPM a parte</strong>
+			<!-- <strong>160€ + IVA + tasas OEPM a parte</strong> -->
 		</p>
 
 	</div>

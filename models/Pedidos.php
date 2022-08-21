@@ -46,15 +46,7 @@ class Pedidos extends AbstractBBDD {
 	public function setDescripcion($descripcion) {
 		$this->descripcion = $descripcion;
 	}	
-	
-	public function getDescripcion() {
-		return $this->descripcion;
-	}
-
-	public function setDescripcion($descripcion) {
-		$this->descripcion = $descripcion;
-	}	
-	
+		
 	public function getFecha() {
 		return $this->fecha;
 	}

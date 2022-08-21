@@ -19,6 +19,16 @@
 
 </div>
 
+<div class="contenedor_superior_inicio_secundario azul">
+
+	<div class="texto recurso_gratuito">
+
+		<a class="" href=""><p class="letra_indie letra_blanca">¡Quiero mi GUIA GRATUITA!</p></a>
+
+	</div>
+
+</div>
+
 <div class="contenedor_texto contenedor_flex">
 
 	<p class="letra_indie">
